@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Analyze weekly exit-ticket reflection CSVs and optionally ask OpenAI for a semantic summary.
+Analyze weekly exit-ticket reflection CSVs and optionally ask OpenAI for semantic summaries.
 
 Expected D2L-style columns based on the sample file:
 - Q # / Q Text / Answer
@@ -8,23 +8,21 @@ Expected D2L-style columns based on the sample file:
 
 This script:
 1. Loads all CSVs under data/exit_tickets/
-2. Treats each CSV as one run/week
-3. Extracts:
-   - learned reflections
-   - struggle/questions reflections
-   - future interest reflections
-   - numeric course difficulty ratings
-4. Builds deterministic metrics
-5. Optionally calls OpenAI for semantic clustering / teaching recommendations
-6. Writes Markdown + JSON reports to reports/
+2. Processes only new CSV files that have not been analyzed before
+3. Treats each CSV as one run/week and writes outputs to its own run directory
+4. Builds deterministic metrics and an optional OpenAI semantic summary
+5. Optionally generates a study guide based on the reflections and summaries
+6. Refreshes a cross-run trend summary CSV
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import re
 from collections import Counter
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 from statistics import mean, median
 from typing import Iterable
@@ -40,9 +38,13 @@ except Exception:  # pragma: no cover
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data" / "exit_tickets"
 REPORTS_DIR = ROOT / "reports"
+RUNS_DIR = REPORTS_DIR / "runs"
+INDEX_PATH = REPORTS_DIR / "analysis_index.json"
+TREND_PATH = REPORTS_DIR / "trend_summary.csv"
 
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.4")
 ENABLE_OPENAI_SUMMARY = os.getenv("ENABLE_OPENAI_SUMMARY", "false").lower() == "true"
+FORCE_REPROCESS = os.getenv("FORCE_REPROCESS", "false").lower() == "true"
 
 STOPWORDS = {
     "a","an","and","are","as","at","be","but","by","for","from","how","i","if","in","into",
@@ -99,6 +101,52 @@ REFLECTION_SCHEMA = {
             "teaching_adjustments",
             "followup_exit_ticket_questions",
             "short_instructor_summary"
+        ]
+    }
+}
+
+STUDY_GUIDE_SCHEMA = {
+    "name": "study_guide",
+    "schema": {
+        "type": "object",
+        "additionalProperties": False,
+        "properties": {
+            "title": {"type": "string"},
+            "overview": {"type": "string"},
+            "key_takeaways_to_review": {
+                "type": "array",
+                "items": {"type": "string"},
+                "maxItems": 10
+            },
+            "common_sticking_points": {
+                "type": "array",
+                "items": {"type": "string"},
+                "maxItems": 8
+            },
+            "practice_prompts": {
+                "type": "array",
+                "items": {"type": "string"},
+                "maxItems": 8
+            },
+            "self_check_questions": {
+                "type": "array",
+                "items": {"type": "string"},
+                "maxItems": 8
+            },
+            "before_next_class": {
+                "type": "array",
+                "items": {"type": "string"},
+                "maxItems": 6
+            }
+        },
+        "required": [
+            "title",
+            "overview",
+            "key_takeaways_to_review",
+            "common_sticking_points",
+            "practice_prompts",
+            "self_check_questions",
+            "before_next_class"
         ]
     }
 }
@@ -174,7 +222,7 @@ def classify_row(question_text: str) -> str:
         return "struggled"
     if "what is one thing you'd like to learn" in q or "what do you want to learn" in q:
         return "future"
-    if "how difficult" in q and "1-10" in q or "scale of 1-10" in q:
+    if ("how difficult" in q and "1-10" in q) or "scale of 1-10" in q:
         return "difficulty"
     return "other"
 
@@ -298,15 +346,32 @@ def build_openai_prompt(metrics: dict) -> str:
     )
 
 
-def call_openai(metrics: dict) -> dict | None:
-    if not ENABLE_OPENAI_SUMMARY:
-        return None
+def build_study_guide_prompt(metrics: dict, ai_summary: dict | None) -> str:
+    return (
+        "You are creating a concise study guide for students in a university computer science course.\n\n"
+        "Important constraints:\n"
+        "- Base the guide only on the provided weekly reflections and instructor summary.\n"
+        "- These are completion-grade reflections, so emphasize review, clarification, and next-step practice.\n"
+        "- Do not invent specific lecture content that is not supported by the reflections.\n"
+        "- Keep the guide broadly useful, student-facing, and easy to skim before class.\n\n"
+        "Use the following deterministic metrics and teaching insights to generate a study guide.\n\n"
+        f"Metrics:\n{json.dumps(metrics, ensure_ascii=False, indent=2)}\n\n"
+        f"Teaching insights:\n{json.dumps(ai_summary or {}, ensure_ascii=False, indent=2)}"
+    )
+
+
+def get_openai_client() -> OpenAI:
     if OpenAI is None:
         raise RuntimeError("openai package is not installed, but ENABLE_OPENAI_SUMMARY=true.")
     if not os.getenv("OPENAI_API_KEY"):
         raise RuntimeError("OPENAI_API_KEY is not set, but ENABLE_OPENAI_SUMMARY=true.")
+    return OpenAI()
 
-    client = OpenAI()
+
+def call_openai(metrics: dict) -> dict | None:
+    if not ENABLE_OPENAI_SUMMARY:
+        return None
+    client = get_openai_client()
     response = client.responses.create(
         model=OPENAI_MODEL,
         input=build_openai_prompt(metrics),
@@ -319,9 +384,26 @@ def call_openai(metrics: dict) -> dict | None:
             }
         },
     )
+    return json.loads(response.output_text)
 
-    raw = response.output_text
-    return json.loads(raw)
+
+def call_openai_study_guide(metrics: dict, ai_summary: dict | None) -> dict | None:
+    if not ENABLE_OPENAI_SUMMARY:
+        return None
+    client = get_openai_client()
+    response = client.responses.create(
+        model=OPENAI_MODEL,
+        input=build_study_guide_prompt(metrics, ai_summary),
+        text={
+            "format": {
+                "type": "json_schema",
+                "name": STUDY_GUIDE_SCHEMA["name"],
+                "schema": STUDY_GUIDE_SCHEMA["schema"],
+                "strict": True,
+            }
+        },
+    )
+    return json.loads(response.output_text)
 
 
 def render_markdown(metrics: dict, ai_summary: dict | None) -> str:
@@ -395,26 +477,123 @@ def render_markdown(metrics: dict, ai_summary: dict | None) -> str:
     return "\n".join(lines).strip() + "\n"
 
 
-def write_outputs(bundle: WeekBundle, metrics: dict, ai_summary: dict | None) -> None:
+def render_study_guide_markdown(metrics: dict, study_guide: dict | None, ai_summary: dict | None) -> str:
+    if study_guide is None:
+        return (
+            f"# Study Guide — {metrics['week_label']}\n\n"
+            "_OpenAI study guide generation is disabled. Set `ENABLE_OPENAI_SUMMARY=true` and `OPENAI_API_KEY` to generate a student-facing study guide._\n"
+        )
+
+    lines: list[str] = []
+    lines.append(f"# {study_guide['title']}")
+    lines.append("")
+    lines.append(study_guide["overview"])
+    lines.append("")
+
+    sections = [
+        ("Key takeaways to review", "key_takeaways_to_review"),
+        ("Common sticking points", "common_sticking_points"),
+        ("Practice prompts", "practice_prompts"),
+        ("Self-check questions", "self_check_questions"),
+        ("Before next class", "before_next_class"),
+    ]
+    for heading, key in sections:
+        lines.append(f"## {heading}")
+        lines.append("")
+        for item in study_guide.get(key, []):
+            lines.append(f"- {item}")
+        lines.append("")
+
+    if ai_summary and ai_summary.get("short_instructor_summary"):
+        lines.append("## Why this guide was generated")
+        lines.append("")
+        lines.append(ai_summary["short_instructor_summary"])
+        lines.append("")
+
+    return "\n".join(lines).strip() + "\n"
+
+
+def file_sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(65536), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def sanitize_stem(name: str) -> str:
+    cleaned = re.sub(r"[^a-zA-Z0-9._-]+", "-", name).strip("-._")
+    return cleaned or "run"
+
+
+def build_run_dir(bundle: WeekBundle, csv_path: Path) -> Path:
+    stem = sanitize_stem(csv_path.stem)
+    return RUNS_DIR / f"{bundle.label}__{stem}"
+
+
+def load_index() -> dict:
+    if not INDEX_PATH.exists():
+        return {"processed_files": {}}
+    try:
+        return json.loads(INDEX_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {"processed_files": {}}
+
+
+def save_index(index: dict) -> None:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    INDEX_PATH.write_text(json.dumps(index, indent=2, ensure_ascii=False), encoding="utf-8")
 
-    latest_json = REPORTS_DIR / "latest_metrics.json"
-    latest_md = REPORTS_DIR / "latest_report.md"
-    dated_json = REPORTS_DIR / f"{bundle.label}_metrics.json"
-    dated_md = REPORTS_DIR / f"{bundle.label}_report.md"
 
-    payload = {"metrics": metrics, "ai_summary": ai_summary}
-    latest_json.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
-    dated_json.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+def should_process(csv_path: Path, index: dict) -> bool:
+    if FORCE_REPROCESS:
+        return True
+    rel = csv_path.relative_to(ROOT).as_posix()
+    record = index.get("processed_files", {}).get(rel)
+    if not record:
+        return True
+    return record.get("sha256") != file_sha256(csv_path)
 
-    md = render_markdown(metrics, ai_summary)
-    latest_md.write_text(md, encoding="utf-8")
-    dated_md.write_text(md, encoding="utf-8")
+
+def write_outputs(bundle: WeekBundle, metrics: dict, ai_summary: dict | None, study_guide: dict | None, run_dir: Path) -> None:
+    run_dir.mkdir(parents=True, exist_ok=True)
+
+    payload = {
+        "metrics": metrics,
+        "ai_summary": ai_summary,
+        "study_guide": study_guide,
+    }
+    (run_dir / "metrics.json").write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    (run_dir / "report.md").write_text(render_markdown(metrics, ai_summary), encoding="utf-8")
+    (run_dir / "study_guide.md").write_text(render_study_guide_markdown(metrics, study_guide, ai_summary), encoding="utf-8")
+
+
+def update_index_for_file(index: dict, csv_path: Path, bundle: WeekBundle, run_dir: Path) -> None:
+    rel = csv_path.relative_to(ROOT).as_posix()
+    index.setdefault("processed_files", {})[rel] = {
+        "sha256": file_sha256(csv_path),
+        "week_label": bundle.label,
+        "run_dir": run_dir.relative_to(ROOT).as_posix(),
+        "processed_at_utc": datetime.now(timezone.utc).isoformat(),
+    }
+
+
+def build_manifest(index: dict) -> None:
+    rows: list[dict] = []
+    for rel_path, details in sorted(index.get("processed_files", {}).items()):
+        rows.append({
+            "source_file": rel_path,
+            "week_label": details.get("week_label"),
+            "run_dir": details.get("run_dir"),
+            "processed_at_utc": details.get("processed_at_utc"),
+            "sha256": details.get("sha256"),
+        })
+    pd.DataFrame(rows).to_csv(REPORTS_DIR / "run_manifest.csv", index=False)
 
 
 def write_trend_csv(all_weeks: list[WeekBundle]) -> None:
     rows = []
-    for bundle in sorted(all_weeks, key=lambda x: x.label):
+    for bundle in sorted(all_weeks, key=lambda x: (x.label, x.source_file)):
         rows.append({
             "week_label": bundle.label,
             "source_file": bundle.source_file,
@@ -425,8 +604,8 @@ def write_trend_csv(all_weeks: list[WeekBundle]) -> None:
             "difficulty_mean": round(mean(bundle.difficulty_ratings), 2) if bundle.difficulty_ratings else None,
             "difficulty_median": round(median(bundle.difficulty_ratings), 2) if bundle.difficulty_ratings else None,
         })
-    if rows:
-        pd.DataFrame(rows).to_csv(REPORTS_DIR / "trend_summary.csv", index=False)
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    pd.DataFrame(rows).to_csv(TREND_PATH, index=False)
 
 
 def main() -> None:
@@ -434,16 +613,39 @@ def main() -> None:
     if not csv_files:
         raise SystemExit(f"No CSV files found in {DATA_DIR}")
 
-    bundles = [load_week(path) for path in csv_files]
-    latest = max(bundles, key=lambda x: x.label)
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+    RUNS_DIR.mkdir(parents=True, exist_ok=True)
 
-    metrics = deterministic_summary(latest)
-    ai_summary = call_openai(metrics)
-    write_outputs(latest, metrics, ai_summary)
-    write_trend_csv(bundles)
+    index = load_index()
+    all_bundles = [load_week(path) for path in csv_files]
+    write_trend_csv(all_bundles)
 
-    print(f"Analyzed {latest.source_file} as week {latest.label}")
-    print(f"Reports written to {REPORTS_DIR}")
+    new_paths = [path for path in csv_files if should_process(path, index)]
+
+    if not new_paths:
+        build_manifest(index)
+        save_index(index)
+        print("No new or changed CSV files detected. Trend summary refreshed only.")
+        return
+
+    processed = []
+    for csv_path in new_paths:
+        bundle = load_week(csv_path)
+        metrics = deterministic_summary(bundle)
+        ai_summary = call_openai(metrics)
+        study_guide = call_openai_study_guide(metrics, ai_summary)
+        run_dir = build_run_dir(bundle, csv_path)
+        write_outputs(bundle, metrics, ai_summary, study_guide, run_dir)
+        update_index_for_file(index, csv_path, bundle, run_dir)
+        processed.append((csv_path.name, run_dir.relative_to(ROOT).as_posix()))
+
+    build_manifest(index)
+    save_index(index)
+
+    print(f"Processed {len(processed)} new/changed file(s):")
+    for name, run_dir in processed:
+        print(f"- {name} -> {run_dir}")
+    print(f"Trend summary written to {TREND_PATH.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
