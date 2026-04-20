@@ -1,0 +1,47 @@
+name: Analyze Exit Tickets
+
+on:
+  push:
+    paths:
+      - 'data/exit_tickets/*.csv'
+      - 'scripts/analyze_exit_tickets.py'
+      - '.github/workflows/analyze-exit-tickets.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run reflection analysis
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-5.4
+          ENABLE_OPENAI_SUMMARY: "true"
+        run: python scripts/analyze_exit_tickets.py
+
+      - name: Upload generated reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: exit-ticket-reports
+          path: reports/
+
+      - name: Commit refreshed reports
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Update exit ticket reflection reports'
+          file_pattern: reports/*

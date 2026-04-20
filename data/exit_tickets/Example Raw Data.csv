@@ -1,0 +1,115 @@
+Org Defined ID,Username,FirstName,LastName,Attempt #,Attempt Start,Attempt End,Section #,Q #,Q Type,Q Title,Q Text,Bonus?,Difficulty,Answer,Answer Match,Score,Out Of
+,,,,1,9/28/2023 15:47,9/28/2023 15:50,,1,WR,,What is one thing you learned this week?,FALSE,1,More about Blazor and GUI implementation,,1,1
+,,,,1,9/28/2023 15:47,9/28/2023 15:50,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Can blazor be used for other things aside from just webpage design?,,1,1
+,,,,1,9/28/2023 15:47,9/28/2023 15:50,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Application Development,,1,1
+,,,,1,9/28/2023 15:47,9/28/2023 15:50,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,9/27/2023 20:20,9/27/2023 20:24,,1,WR,,What is one thing you learned this week?,FALSE,1,Things should be done in a certain order that things happen in the correct way. Event driven programming. ,,1,1
+,,,,1,9/27/2023 20:20,9/27/2023 20:24,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,I don't have one for this week. ,,1,1
+,,,,1,9/27/2023 20:20,9/27/2023 20:24,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,"I can't think of one for this week, ",,1,1
+,,,,1,9/27/2023 20:20,9/27/2023 20:24,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,9/28/2023 12:11,9/28/2023 12:13,,1,WR,,What is one thing you learned this week?,FALSE,1,More about how blazor works.,,1,1
+,,,,1,9/28/2023 12:11,9/28/2023 12:13,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,"Are we able to submit projects in different yet common coding languages, and if not why",,1,1
+,,,,1,9/28/2023 12:11,9/28/2023 12:13,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,pointers and references,,1,1
+,,,,1,9/28/2023 12:11,9/28/2023 12:13,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,2,1,1
+,,,,1,9/28/2023 14:14,9/28/2023 14:33,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned how you can Parse a ReadLine() into an Enum,,1,1
+,,,,1,9/28/2023 14:14,9/28/2023 14:33,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,I am still confused on how to use an API in the Blazer apps,,1,1
+,,,,1,9/28/2023 14:14,9/28/2023 14:33,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,I would like to learn how to change the backgrounds of the websites/blazer apps from the default white with purple side bar,,1,1
+,,,,1,9/28/2023 14:14,9/28/2023 14:33,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,8,1,1
+,,,,1,9/27/2023 21:24,9/27/2023 21:26,,1,WR,,What is one thing you learned this week?,FALSE,1,How to make a code a playlist,,1,1
+,,,,1,9/27/2023 21:24,9/27/2023 21:26,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,More understaning with Abstact when coding,,1,1
+,,,,1,9/27/2023 21:24,9/27/2023 21:26,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Can we add you to respository for github. If so how?,,1,1
+,,,,1,9/27/2023 21:24,9/27/2023 21:26,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,9/28/2023 21:07,9/28/2023 21:13,,1,WR,,What is one thing you learned this week?,FALSE,1,parrellism and how its used,,1,1
+,,,,1,9/28/2023 21:07,9/28/2023 21:13,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,NA,,1,1
+,,,,1,9/28/2023 21:07,9/28/2023 21:13,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,NA,,1,1
+,,,,1,9/28/2023 21:07,9/28/2023 21:13,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,9/28/2023 18:14,9/28/2023 18:15,,1,WR,,What is one thing you learned this week?,FALSE,1,api ,,1,1
+,,,,1,9/28/2023 18:14,9/28/2023 18:15,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,how can we order an api ,,1,1
+,,,,1,9/28/2023 18:14,9/28/2023 18:15,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,database ,,1,1
+,,,,1,9/28/2023 18:14,9/28/2023 18:15,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,8,1,1
+,,,,1,9/28/2023 21:42,9/28/2023 21:48,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned a little bit on how to use astah.,,1,1
+,,,,1,9/28/2023 21:42,9/28/2023 21:48,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,I've learned more about enums while doing the project.,,1,1
+,,,,1,9/28/2023 21:42,9/28/2023 21:48,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,"Try to reduce the amount of code while using enums, and manipulating their data.",,1,1
+,,,,1,9/28/2023 21:42,9/28/2023 21:48,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,9/28/2023 23:42,9/28/2023 23:45,,1,WR,,What is one thing you learned this week?,FALSE,1,"I'll be honest, I think I spent all of my time in both class sessions this week desperately trying to code my project successfully, so I will say that I gained some of my ability to code back after forgetting a good amount of stuff over summer break.",,1,1
+,,,,1,9/28/2023 23:42,9/28/2023 23:45,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,"Will we need to be learning HTML if all of our assignments are going to be in Blazor, or would you say that it's not that necessary and you can get away with just basic HTML knowledge?",,1,1
+,,,,1,9/28/2023 23:42,9/28/2023 23:45,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,"I would like to learn CSS in the future and how to make it look good. I think it's really interesting, I'm just not very artistically inclined and it looks very daunting.",,1,1
+,,,,1,9/28/2023 23:42,9/28/2023 23:45,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,9/28/2023 17:36,9/28/2023 17:40,,1,WR,,What is one thing you learned this week?,FALSE,1,"Since I missed class Monday due to being sick, I have no idea what was covered. I cant tell what was discussed based off class notes 9.25 that was uploaded",,1,1
+,,,,1,9/28/2023 17:36,9/28/2023 17:40,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,What is the difference between using blazor vs. writting our own html script?,,1,1
+,,,,1,9/28/2023 17:36,9/28/2023 17:40,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,i would like to learn how to use streamreader/writer. That was a major issue for me on my last 1260 attempt. ,,1,1
+,,,,1,9/28/2023 17:36,9/28/2023 17:40,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,9/28/2023 23:24,9/28/2023 23:38,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned about the basics of event driven programming,,1,1
+,,,,1,9/28/2023 23:24,9/28/2023 23:38,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,I would like to know about event driven programming geared toward mobile device usage,,1,1
+,,,,1,9/28/2023 23:24,9/28/2023 23:38,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,"I would like to know about early event driven programming on legacy systems.  I do not expect to learn this in class, though",,1,1
+,,,,1,9/28/2023 23:24,9/28/2023 23:38,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,9/28/2023 13:37,9/28/2023 13:41,,1,WR,,What is one thing you learned this week?,FALSE,1,We learned about component lifecycles in a blazor project.,,1,1
+,,,,1,9/28/2023 13:37,9/28/2023 13:41,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,"When doing an XML comment for a method with parameters, are we supposed to describe the parameter itself or what it does within the method?",,1,1
+,,,,1,9/28/2023 13:37,9/28/2023 13:41,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,How to work with a GUI.,,1,1
+,,,,1,9/28/2023 13:37,9/28/2023 13:41,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,9/28/2023 23:19,9/28/2023 23:21,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned more about xml comments,,1,1
+,,,,1,9/28/2023 23:19,9/28/2023 23:21,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,none,,1,1
+,,,,1,9/28/2023 23:19,9/28/2023 23:21,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,graphic.h,,1,1
+,,,,1,9/28/2023 23:19,9/28/2023 23:21,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,4,1,1
+,,,,1,9/28/2023 22:06,9/28/2023 22:23,,1,WR,,What is one thing you learned this week?,FALSE,1,"I learned that Scoped lasts as long as the page is open. Singletonhad an infinite lifetime.
+Transient lives for the time limit of the request.
+",,1,1
+,,,,1,9/28/2023 22:06,9/28/2023 22:23,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,I have questions about the project. Such as how to make the runtime go in between the album and song class. ,,1,1
+,,,,1,9/28/2023 22:06,9/28/2023 22:23,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,I would like to learn all the code needed to make the project 1 work. Maybe after it is completely due and done. ,,1,1
+,,,,1,9/28/2023 22:06,9/28/2023 22:23,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,10/2/2023 10:33,10/2/2023 10:38,,1,WR,,What is one thing you learned this week?,FALSE,1,parallel programming,,1,1
+,,,,1,10/2/2023 10:33,10/2/2023 10:38,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,in what languages allow you to use parallel programming,,1,1
+,,,,1,10/2/2023 10:33,10/2/2023 10:38,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,i would like a deeper dive into the other ways to use a task,,1,1
+,,,,1,10/2/2023 10:33,10/2/2023 10:38,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,9/27/2023 19:50,9/27/2023 19:52,,1,WR,,What is one thing you learned this week?,FALSE,1,A basic understanding of dicitonaries and how to structure multiple classes together in a cohesive format.,,1,1
+,,,,1,9/27/2023 19:50,9/27/2023 19:52,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,If I want to add mp3 files to C# code is there a built in feature or do I need libraries. (I assume I need libraries),,1,1
+,,,,1,9/27/2023 19:50,9/27/2023 19:52,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Hoe to add mp3 files to C# code ,,1,1
+,,,,1,9/27/2023 19:50,9/27/2023 19:52,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,9/27/2023 20:56,9/27/2023 21:05,,1,WR,,What is one thing you learned this week?,FALSE,1,Blazor implementation,,1,1
+,,,,1,9/27/2023 20:56,9/27/2023 21:05,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Can you write an html code within visual studio code and add it into a C# file.,,1,1
+,,,,1,9/27/2023 20:56,9/27/2023 21:05,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,More info about API software.,,1,1
+,,,,1,9/27/2023 20:56,9/27/2023 21:05,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7.584568216,1,1
+,,,,1,9/27/2023 16:51,9/27/2023 17:08,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned how to implement exception handling.,,1,1
+,,,,1,9/27/2023 16:51,9/27/2023 17:08,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,I do not have a question.,,1,1
+,,,,1,9/27/2023 16:51,9/27/2023 17:08,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,I would like to learn more about how to use blazor.,,1,1
+,,,,1,9/27/2023 16:51,9/27/2023 17:08,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,10/4/2023 21:20,10/4/2023 21:26,,1,WR,,What is one thing you learned this week?,FALSE,1,One thing I learned this week was on to create a button and user input box in HTML.,,1,1
+,,,,1,10/4/2023 21:20,10/4/2023 21:26,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,One question I had this week was how we implement our methods in the GUI. I need more clarification on how to do it properly.,,1,1
+,,,,1,10/4/2023 21:20,10/4/2023 21:26,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,One thing I would like to learn in the future is dictionarys,,1,1
+,,,,1,10/4/2023 21:20,10/4/2023 21:26,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,9/28/2023 23:12,9/28/2023 23:15,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned some cools new things you can do in c# during my time researching & creating project 1,,1,1
+,,,,1,9/28/2023 23:12,9/28/2023 23:15,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Don't have one.,,1,1
+,,,,1,9/28/2023 23:12,9/28/2023 23:15,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Specifically why json serialization is important,,1,1
+,,,,1,9/28/2023 23:12,9/28/2023 23:15,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,3,1,1
+,,,,1,9/28/2023 17:21,9/28/2023 17:22,,1,WR,,What is one thing you learned this week?,FALSE,1,More about the functionality of Blazor apps,,1,1
+,,,,1,9/28/2023 17:21,9/28/2023 17:22,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,I don't have any questions at the moment.,,1,1
+,,,,1,9/28/2023 17:21,9/28/2023 17:22,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,How to make more than Blazor apps,,1,1
+,,,,1,9/28/2023 17:21,9/28/2023 17:22,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,9/27/2023 22:01,9/27/2023 22:03,,1,WR,,What is one thing you learned this week?,FALSE,1,Learned to think or plan our task better,,1,1
+,,,,1,9/27/2023 22:01,9/27/2023 22:03,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Nothing so far,,1,1
+,,,,1,9/27/2023 22:01,9/27/2023 22:03,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,I would like how to learn to code more in Python,,1,1
+,,,,1,9/27/2023 22:01,9/27/2023 22:03,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,9/27/2023 18:49,9/27/2023 18:52,,1,WR,,What is one thing you learned this week?,FALSE,1,Basics of asyncronous programing in C#,,1,1
+,,,,1,9/27/2023 18:49,9/27/2023 18:52,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,when would ever need to use asyncronous programing ,,1,1
+,,,,1,9/27/2023 18:49,9/27/2023 18:52,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Can blazor be used to create desktop applications,,1,1
+,,,,1,9/27/2023 18:49,9/27/2023 18:52,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,4,1,1
+,,,,1,9/28/2023 23:03,9/28/2023 23:04,,1,WR,,What is one thing you learned this week?,FALSE,1,I cant remember about monday but thanks for letting us finish our projects wednesday.,,1,1
+,,,,1,9/28/2023 23:03,9/28/2023 23:04,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Im just excited to figure out how to use GUI.,,1,1
+,,,,1,9/28/2023 23:03,9/28/2023 23:04,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,How to stick this all in GUI and not make it implode.,,1,1
+,,,,1,9/28/2023 23:03,9/28/2023 23:04,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,9/27/2023 17:14,9/27/2023 17:18,,1,WR,,What is one thing you learned this week?,FALSE,1,More about GUI - Graphical user interface ,,1,1
+,,,,1,9/27/2023 17:14,9/27/2023 17:18,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Will we have more blazor examples in the future?,,1,1
+,,,,1,9/27/2023 17:14,9/27/2023 17:18,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,"More about XML comments, how much info should I include for projects?",,1,1
+,,,,1,9/27/2023 17:14,9/27/2023 17:18,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,9,1,1
+,,,,1,9/28/2023 12:47,9/28/2023 12:57,,1,WR,,What is one thing you learned this week?,FALSE,1,"using multiple threads , and  ording what task need to be done before",,1,1
+,,,,1,9/28/2023 12:47,9/28/2023 12:57,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,"Im still confused on how blazer works exactly , I think I just don;t exactly understand what you have to use to add services, but I think after I start working with it I will understand more",,1,1
+,,,,1,9/28/2023 12:47,9/28/2023 12:57,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,"I would like to look into some desktop development, or something with like godot I saw we could use it on the final and I have already looked into it a little",,1,1
+,,,,1,9/28/2023 12:47,9/28/2023 12:57,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,9/28/2023 1:03,9/28/2023 1:04,,1,WR,,What is one thing you learned this week?,FALSE,1,Got a better understanding of asynchronous programming,,1,1
+,,,,1,9/28/2023 1:03,9/28/2023 1:04,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Nothing so far,,1,1
+,,,,1,9/28/2023 1:03,9/28/2023 1:04,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,More things you can do with GUI,,1,1
+,,,,1,9/28/2023 1:03,9/28/2023 1:04,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,9/28/2023 21:57,9/28/2023 22:52,,1,WR,,What is one thing you learned this week?,FALSE,1,"I learned about asynchronous programming, and to start the projects early",,1,1
+,,,,1,9/28/2023 21:57,9/28/2023 22:52,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Is Blazor the most common framework for a GUI,,1,1
+,,,,1,9/28/2023 21:57,9/28/2023 22:52,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,How to debug code efficiently,,1,1
+,,,,1,9/28/2023 21:57,9/28/2023 22:52,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,9,1,1
