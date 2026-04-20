@@ -1,0 +1,297 @@
+{
+  "metrics": {
+    "week_label": "2026-04-17",
+    "source_file": "Week 13 Exit Ticket - CSCI 2210.csv",
+    "response_counts": {
+      "learned": 26,
+      "struggled": 17,
+      "future": 22,
+      "difficulty_ratings": 26
+    },
+    "difficulty_summary": {
+      "count": 26,
+      "mean": 5.62,
+      "median": 6.0,
+      "min": 1.0,
+      "max": 8.9
+    },
+    "top_learned_terms": [
+      {
+        "term": "hash",
+        "count": 12
+      },
+      {
+        "term": "heaps",
+        "count": 9
+      },
+      {
+        "term": "fibonacci",
+        "count": 6
+      },
+      {
+        "term": "collisions",
+        "count": 5
+      },
+      {
+        "term": "hashing",
+        "count": 5
+      },
+      {
+        "term": "hash collisions",
+        "count": 4
+      },
+      {
+        "term": "did",
+        "count": 4
+      },
+      {
+        "term": "chaining",
+        "count": 4
+      },
+      {
+        "term": "sequence",
+        "count": 4
+      },
+      {
+        "term": "some",
+        "count": 3
+      },
+      {
+        "term": "bit",
+        "count": 3
+      },
+      {
+        "term": "binomial",
+        "count": 3
+      }
+    ],
+    "top_struggled_terms": [
+      {
+        "term": "heaps",
+        "count": 4
+      },
+      {
+        "term": "questions",
+        "count": 4
+      },
+      {
+        "term": "not",
+        "count": 3
+      },
+      {
+        "term": "time",
+        "count": 3
+      },
+      {
+        "term": "data",
+        "count": 2
+      },
+      {
+        "term": "applications",
+        "count": 2
+      },
+      {
+        "term": "there",
+        "count": 2
+      },
+      {
+        "term": "other",
+        "count": 2
+      },
+      {
+        "term": "any",
+        "count": 2
+      },
+      {
+        "term": "nothing",
+        "count": 2
+      },
+      {
+        "term": "strawberry",
+        "count": 2
+      },
+      {
+        "term": "human",
+        "count": 2
+      }
+    ],
+    "top_future_terms": [
+      {
+        "term": "data",
+        "count": 3
+      },
+      {
+        "term": "structures",
+        "count": 3
+      },
+      {
+        "term": "data structures",
+        "count": 3
+      },
+      {
+        "term": "hashing",
+        "count": 3
+      },
+      {
+        "term": "legs",
+        "count": 2
+      },
+      {
+        "term": "don",
+        "count": 2
+      },
+      {
+        "term": "algorithms",
+        "count": 2
+      },
+      {
+        "term": "nothing",
+        "count": 2
+      },
+      {
+        "term": "other",
+        "count": 2
+      }
+    ],
+    "overlap_terms": [
+      "heaps"
+    ],
+    "sample_reflections": {
+      "learned": [
+        "I learned about heaps",
+        "I learned about caching and how to implement it",
+        "Binary heaps and trees",
+        "I learned about the efficiency of using hash tables for searches.",
+        "This week I learned about hash collisions which happen when one hash can lead to two seperate files or paths. With modern solutions this happens less (for example some hash might lead to some petabyte bit count file or a few amount of bit count file where they just wouldn't be able to collide in practical contexts)",
+        "Learned about binomial heap.",
+        "I learned more about dictionaries and practical uses/operations of them",
+        "Binary search and Probing",
+        "I think me and binomial heaps are going to get into a fight.",
+        "I learned about dictionaries and different heaps",
+        "About heaps and dictionaries.",
+        "So it happens to be that two of my classes are talking about hashing tables and hash collisions at the same time. Though back in community college i did learn about hashing i did not learn much about how to deal with collisions, rather we just manually generated hashes. I did learn in this week's lecture (online material) about different kinds of probing. For instance i had no clue that chaining (holding many values in a linked list at a particular key hash value (deposited into a bucket)) had a formal name i always just called it a hash bucket (which is also a term for it)."
+      ],
+      "struggled": [
+        "What are heaps? Just kidding.",
+        "Caching huge data sets",
+        "Applications of this",
+        "Are there other forms of heaps not discussed.",
+        "I don't have any questions",
+        "How does Hashed indexing and associative array works?",
+        "Nothing but I do have a question, would you rather be a strawberry with human thoughts or a human with strawberry thoughts, and why?",
+        "What circumstances requires certain types of heaps or other data structures",
+        "Practical applications?",
+        "Still nothing, though i have not been attending lectures due to sheer laziness and having conflicts with online work. Most of the information has been filled in by a peer or the suplemental reading.",
+        "No questions.",
+        "So we talked about dynamic programming in the sense of saving time through increased space, what about saving space through increased time?"
+      ],
+      "future": [
+        "More about heaps",
+        "How caching fits into a grander project",
+        "More about \"legs\"",
+        "Another programming language like C or TypeScript",
+        "I'm not sure what else I'd like to learn about this topic, perhaps learn what I am too ignorant to know that I don't know it.",
+        "Some older data structures no longer in use.",
+        "I would like to work with dictionaries more as I really like using them :D",
+        "More algorithms and especially teach me a realistic one",
+        "The answer to my previous question",
+        "more algorithms based stuff or learning how to apply DSA for like coding interviews",
+        "More about hashing.",
+        "At the moment i can't think of anything."
+      ]
+    }
+  },
+  "ai_summary": {
+    "top_learned_concepts": [
+      "Hash tables and hashing were the clearest perceived learning area, especially search efficiency, collisions, probing, chaining, buckets, and dictionary-style operations.",
+      "Heaps were a major takeaway, including binary heaps, binomial heaps, and their relationship to trees.",
+      "Students also noticed broader design ideas around caching and time/space tradeoffs, though these appeared less consistently than hashing and heaps.",
+      "A smaller cluster of students connected the week’s material to familiar abstractions like dictionaries/associative arrays and practical data-structure operations."
+    ],
+    "top_struggle_clusters": [
+      "Heaps are the main overlap area: students both learned them and still felt uncertain about what heaps are, what variants exist, and when to use different heap types.",
+      "Application/transfer questions are prominent: several responses ask about practical applications, realistic use cases, and when particular data structures are appropriate.",
+      "Hashing implementation details remain muddy for some students, especially hashed indexing and associative arrays.",
+      "A process/access issue appears in reflections about lack of lecture attendance, time, or conflicts, suggesting some struggle may come from course engagement conditions rather than topic difficulty alone.",
+      "Some struggle responses indicate no specific confusion, so the absence of reported questions should not be interpreted as full mastery."
+    ],
+    "future_interest_clusters": [
+      "Students want deeper treatment of heaps, especially more examples and distinctions among heap variants.",
+      "They want more about hashing and related dictionary/associative-array usage.",
+      "There is interest in seeing data structures and algorithms situated in larger, realistic projects, including caching in broader systems and interview-style applications.",
+      "Students appear interested in comparative framing: older or less-used data structures, when to choose one structure over another, and algorithm-focused continuation."
+    ],
+    "mismatches": [
+      "Hashing appears strongly in perceived learning but less in reported struggle, suggesting students may feel they grasp the vocabulary while still wanting more application-oriented depth.",
+      "Heaps show up as both a major learned topic and the only explicit learned/struggled overlap, marking them as a likely fragile understanding area.",
+      "Future-interest responses emphasize realistic applications more than learned responses do, indicating students may understand isolated concepts but want stronger context for use.",
+      "Several struggle responses report 'nothing' or no questions, but future-interest answers still ask for more depth, so low reported struggle does not mean low curiosity or complete comprehension."
+    ],
+    "teaching_adjustments": [
+      "Prioritize a short follow-up segment on heap taxonomy: binary heap vs. binomial heap, what problem each solves, and simple rules of thumb for when each is appropriate.",
+      "Add one or two concrete application case studies tying structures to real systems, such as hashing for lookup/indexing, caching in larger software, and heaps for priority scheduling.",
+      "Use a comparison table for dictionary, hash table, associative array, probing, and chaining so students can align terminology and implementation ideas.",
+      "Revisit the time-space tradeoff explicitly, since students connected caching and dynamic programming ideas and asked about the inverse tradeoff.",
+      "Provide a brief 'choosing the right data structure' decision guide centered on workload patterns: search-heavy, priority access, memory sensitivity, collision handling, etc.",
+      "Because some students may be relying on peers/readings instead of lectures, offer a compact recap artifact such as a one-page concept map or annotated examples to reduce gaps from uneven attendance."
+    ],
+    "followup_exit_ticket_questions": [
+      "What is one practical scenario where you would choose a hash table over another data structure, and why?",
+      "What is still unclear about heaps: their structure, operations, variants, or use cases?",
+      "After this week, how would you explain the difference between chaining and probing to a classmate?",
+      "What is one example of a time/space tradeoff from this unit that now makes sense to you?",
+      "Which data structure from this week feels most useful in a real project, and what project would you use it in?"
+    ],
+    "short_instructor_summary": "Students perceived strongest learning around hashing and heaps, with hashing concepts sounding more settled and heaps remaining the main unresolved area. The biggest instructional need is not just more definition-level review, but more comparative and application-driven framing: when to use heaps, what heap variants are for, how hashing-related structures map onto dictionaries/associative arrays, and how these ideas appear in realistic systems such as caching or indexing. Reported difficulty is moderate overall, so a targeted clarification-and-application pass would likely meet the class well."
+  },
+  "study_guide": {
+    "title": "Study Guide for Week of 2026-04-17",
+    "overview": "This week’s reflections suggest that the main ideas to review are hashing/hash tables, collisions and collision handling, dictionaries/associative arrays, and heaps. Many students felt they learned the vocabulary and core ideas, but still want clearer comparison, use-case framing, and practice deciding when to use each structure. Difficulty felt moderate overall, so the best prep before class is a focused review of core terms plus a little application-oriented practice.",
+    "key_takeaways_to_review": [
+      "Hash tables and hashing: why they are useful for efficient lookup/search.",
+      "Hash collisions: what a collision is and why collision handling matters.",
+      "Collision handling methods mentioned this week, especially probing and chaining.",
+      "How dictionaries and associative-array style operations relate to hashing ideas.",
+      "Heaps as a family of data structures, especially binary heaps and binomial heaps.",
+      "The connection between heaps and trees.",
+      "Caching as an example of using data structures in a larger system.",
+      "The basic idea of time/space tradeoffs, since several reflections connected this to caching and efficiency."
+    ],
+    "common_sticking_points": [
+      "Heaps are still the least settled topic: what they are, how variants differ, and when to use one kind over another.",
+      "Students want clearer practical applications, not just definitions.",
+      "Some terminology may still feel blurry: dictionary vs. hash table vs. associative array.",
+      "Hashed indexing and how associative-array behavior is implemented may still need clarification.",
+      "It may be hard to tell which data structure fits which problem.",
+      "A few students may need a compact recap if they missed lecture or relied mostly on readings/peers."
+    ],
+    "practice_prompts": [
+      "In your own words, explain why a hash table can make searching efficient.",
+      "Write a 2–3 sentence explanation of what a hash collision is.",
+      "Compare chaining and probing: how are they both trying to solve the same problem?",
+      "Make a small chart with these terms: dictionary, associative array, hash table, chaining, probing. Write one short note for each.",
+      "List what you know about heaps so far, then add one question you still have about heap variants or use cases.",
+      "Give one possible real-world style use case for hashing, one for heaps, and one for caching.",
+      "Describe a situation where saving time might require extra space.",
+      "Describe a situation where you might accept more time in order to use less space."
+    ],
+    "self_check_questions": [
+      "Can I explain the difference between a collision and a hash function?",
+      "Can I describe chaining and probing without mixing them up?",
+      "Do I understand how dictionary-like operations connect to hashing?",
+      "Can I name at least two heap variants mentioned this week?",
+      "Can I explain, at a high level, why someone might want different kinds of heaps?",
+      "Can I give one example of a realistic application for hashing, heaps, or caching?",
+      "Can I say what kind of access pattern a structure supports well, such as fast lookup or priority-based access?",
+      "What feels least clear right now: heap structure, heap variants, hash implementation details, or choosing the right structure?"
+    ],
+    "before_next_class": [
+      "Review your notes or readings for hashing, collisions, chaining, probing, dictionaries, and heaps.",
+      "Make a one-page comparison sheet for hash-table-related terms and heap-related terms.",
+      "Prepare one practical question to bring to class, especially about when to choose a certain structure.",
+      "If heaps still feel fuzzy, focus on distinguishing the variants mentioned rather than memorizing every detail.",
+      "If you missed lecture or feel behind, build a short recap from examples in the readings so you have the terminology ready.",
+      "Try to connect each topic to a larger system idea: lookup/indexing, caching, or priority-based processing."
+    ]
+  }
+}

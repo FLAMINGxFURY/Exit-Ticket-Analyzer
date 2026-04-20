@@ -1,0 +1,277 @@
+{
+  "metrics": {
+    "week_label": "2026-04-17",
+    "source_file": "Week 13 Exit Ticket - CSCI 1260.csv",
+    "response_counts": {
+      "learned": 15,
+      "struggled": 11,
+      "future": 13,
+      "difficulty_ratings": 16
+    },
+    "difficulty_summary": {
+      "count": 16,
+      "mean": 6.25,
+      "median": 6.0,
+      "min": 1.0,
+      "max": 10.0
+    },
+    "top_learned_terms": [
+      {
+        "term": "handling",
+        "count": 7
+      },
+      {
+        "term": "exception",
+        "count": 5
+      },
+      {
+        "term": "exception handling",
+        "count": 5
+      },
+      {
+        "term": "catch",
+        "count": 3
+      },
+      {
+        "term": "try",
+        "count": 3
+      },
+      {
+        "term": "error",
+        "count": 3
+      },
+      {
+        "term": "exceptions",
+        "count": 2
+      },
+      {
+        "term": "handle",
+        "count": 2
+      },
+      {
+        "term": "use",
+        "count": 2
+      },
+      {
+        "term": "streamreader",
+        "count": 2
+      },
+      {
+        "term": "data",
+        "count": 2
+      },
+      {
+        "term": "files",
+        "count": 2
+      }
+    ],
+    "top_struggled_terms": [
+      {
+        "term": "exception",
+        "count": 3
+      },
+      {
+        "term": "exceptions",
+        "count": 2
+      },
+      {
+        "term": "file",
+        "count": 2
+      },
+      {
+        "term": "data",
+        "count": 2
+      },
+      {
+        "term": "does",
+        "count": 2
+      },
+      {
+        "term": "using",
+        "count": 2
+      },
+      {
+        "term": "possible",
+        "count": 2
+      },
+      {
+        "term": "all",
+        "count": 2
+      },
+      {
+        "term": "handling",
+        "count": 2
+      },
+      {
+        "term": "exception handling",
+        "count": 2
+      }
+    ],
+    "top_future_terms": [
+      {
+        "term": "use",
+        "count": 3
+      },
+      {
+        "term": "error",
+        "count": 2
+      },
+      {
+        "term": "languages",
+        "count": 2
+      },
+      {
+        "term": "different",
+        "count": 2
+      },
+      {
+        "term": "make",
+        "count": 2
+      }
+    ],
+    "overlap_terms": [
+      "exception",
+      "exception handling",
+      "exceptions",
+      "handling"
+    ],
+    "sample_reflections": {
+      "learned": [
+        "I learned about exceptions and how to handle them using catch.",
+        "How to use a try/except in C#",
+        "About try and catch.",
+        "About the StreamReader in C Sharp",
+        "We learned about excepton handling, specifically how to \"try\" blocks of code and \"catch\" specified arguments in order to display user-friendly error messages or ensure that a program can continue running when an error is encountered.",
+        "Debugging and exception handling",
+        "Fancy if statements",
+        "Learned hoew to use the StreamReader class and parse data from files",
+        "error handling",
+        "Exception handling in C#",
+        "How to save data in programs",
+        "More about inputing and outputing with files"
+      ],
+      "struggled": [
+        "I don't think I have any; exceptions are pretty straightforward.",
+        "No Questions",
+        "Should a file have a limit if it were to be opened in C sharp to prevent too much data at once",
+        "What is a debugging tool that is almost always used regardless of the project?",
+        "Does these classes have other applications that arent text-based?",
+        "How much does the type of exception you throw matter?",
+        "How do programs hide data from users in file explorer?",
+        "Is storing configurations files the best way to save configs when using a website or using a program or game?",
+        "is it possible to handle all exceptions",
+        "Would it be possible to seperate all of the code for exception handling into it's own class and distribute it where it was necessary with calls to that class, or would that just be making it messier and overcomplicating it?",
+        "Would like some more examples of exception handling"
+      ],
+      "future": [
+        "I'd like to learn where you were on Wednesday, if that counts :)",
+        "C++",
+        "Hardware focused upgrades",
+        "I would like to learn how to display error messages on blazor pages iwith exception handling.",
+        "I'd like to learn more about search algorithms",
+        "How to use similar classes with other languages for different purposes",
+        "What does error handeling look like on a larger scale",
+        "Are there any cases of large problems being caused by a lack of exceptions?",
+        "How to make a game with save data",
+        "Use the files to make savepoints within projects or programs.",
+        "Different programming languages",
+        "I would like to learn about how to use vector arrays because I was reading a little bit about them and it sounded very useful and interesting."
+      ]
+    }
+  },
+  "ai_summary": {
+    "top_learned_concepts": [
+      "Exception handling as the central takeaway, especially the try/catch pattern in C#.",
+      "Basic error-handling goals: preventing crashes, showing user-friendly messages, and continuing execution after errors.",
+      "File and text-input topics through StreamReader and file parsing.",
+      "Program data persistence and file I/O, including saving data and reading/writing files.",
+      "Some students connected the week to debugging, suggesting they saw exception handling as part of troubleshooting workflows."
+    ],
+    "top_struggle_clusters": [
+      "Applying exception handling beyond the syntax: students asked about which exception types matter, whether all exceptions can be handled, and how exception-handling code should be organized.",
+      "File/data management questions rather than raw syntax issues: file size limits, hidden files/data, configuration storage, and saving data appropriately.",
+      "Transfer to broader software contexts: students want to know how these classes/tools apply outside simple text-based examples and in larger applications.",
+      "Need for more worked examples: at least one clear request for additional exception-handling examples, alongside several exploratory questions that suggest partial understanding rather than confusion.",
+      "A subset reported little or no struggle, so the class appears mixed: many grasped the basics, while others are ready for design-level questions."
+    ],
+    "future_interest_clusters": [
+      "Scaling error handling up: students want to see what exception handling looks like in larger systems and UI/web contexts such as Blazor.",
+      "Cross-language and cross-platform transfer: interest in C++, other programming languages, and analogous tools/classes in different environments.",
+      "Game/project applications of file I/O: save data, savepoints, and persistent state in programs or games.",
+      "Broader CS topics adjacent to the course: search algorithms, hardware-oriented topics, and vector/array-like structures.",
+      "Concrete consequences and case studies: interest in examples where poor exception handling caused larger software problems."
+    ],
+    "mismatches": [
+      "Exception handling appeared as both the dominant learned concept and the dominant struggle area, indicating students often understand the basic idea while still lacking confidence in edge cases and design decisions.",
+      "Instruction seems to have centered on C# try/catch and StreamReader, while several student questions moved quickly to architecture, storage strategy, and real-world application; this suggests curiosity is extending beyond the current level of abstraction.",
+      "Some future-interest responses were only loosely tied to the week's material, so not all students are using the reflection prompt to identify next steps within the current topic.",
+      "Perceived difficulty was moderate overall (mean 6.25, median 6), which fits a week where fundamentals landed for many students but deeper implications still felt uncertain."
+    ],
+    "teaching_adjustments": [
+      "Differentiate between 'basic syntax mastery' and 'exception design judgment' in the next class: briefly review try/catch, then explicitly address when to catch specific exceptions, when not to catch everything, and how to structure handlers responsibly.",
+      "Add a small comparison table or mini-lesson on common exception-handling decisions: generic vs specific catches, user-facing messages vs debugging details, and local handling vs centralized handling.",
+      "Use one or two authentic file-I/O examples that connect to student interests, such as save files, config files, or reading structured text data.",
+      "Provide a worked example that combines StreamReader/file parsing with exception handling, so students can see the interaction between file access, parsing failures, and user feedback.",
+      "Include at least one 'larger-scale' example, even if simplified, showing how exceptions surface through a UI or web page flow.",
+      "Reserve a few minutes for 'what this looks like outside toy examples,' since several questions point to transfer into games, websites, and non-text applications."
+    ],
+    "followup_exit_ticket_questions": [
+      "When writing a C# program, how confident are you in deciding which exceptions to catch versus letting them propagate?",
+      "What is still unclear about exception handling: syntax, choosing exception types, organizing code, or deciding what message to show users?",
+      "How confident are you using file I/O together with exception handling in a small program?",
+      "Which real-world example would help most next: save files in games, config files, web/UI error handling, or debugging workflows?",
+      "After this week, do exceptions feel mostly like a syntax topic or a program design topic to you, and why?"
+    ],
+    "short_instructor_summary": "Students largely perceived exception handling as the main thing they learned, especially try/catch in C#, with file I/O and StreamReader as a secondary theme. Struggles were less about remembering syntax and more about judgment and transfer: which exceptions matter, whether everything can be handled, how to organize error-handling code, and how file/data practices work in real applications. Future interest points strongly toward scaled-up, practical contexts such as web/UI error handling, games/save data, and cross-language comparisons. A productive next step would be to keep the syntax review brief and spend more time on decision-making, worked file-I/O examples, and real-world application patterns."
+  },
+  "study_guide": {
+    "title": "Study Guide for 2026-04-17: Exception Handling, File I/O, and Next-Step Practice",
+    "overview": "This week’s main review topic is exception handling in C#, especially the basic try/catch pattern. Many students also connected the week to file I/O, StreamReader, parsing data from files, saving data, and debugging. Overall difficulty felt moderate: many students understood the core idea, but several still want clarification on how exception handling works in bigger programs, how to choose what to catch, and how file/data features apply in real projects. Before class, focus on reviewing the basics and preparing to ask questions about design choices rather than just syntax.",
+    "key_takeaways_to_review": [
+      "Know the purpose of exception handling: preventing crashes, responding to errors, and giving user-friendly feedback.",
+      "Review the basic try/catch structure in C# and what each part is meant to do.",
+      "Connect exception handling to debugging: exceptions are not just syntax, but part of finding and managing problems in programs.",
+      "Review how StreamReader and file parsing fit into file input tasks.",
+      "Review the idea of saving and loading data with files.",
+      "Be ready to think about exception handling as a decision-making topic, not only a code-format topic."
+    ],
+    "common_sticking_points": [
+      "Understanding exception handling in principle, but not yet feeling confident about edge cases or design choices.",
+      "Knowing that exceptions can be caught, but being unsure which exception types matter most.",
+      "Wondering whether all exceptions should or even can be handled the same way.",
+      "Deciding how to organize exception-handling code without making programs messy.",
+      "Applying file I/O ideas beyond simple text examples.",
+      "Questions about file/data practices in real software, such as config files, save data, hidden data, and large files.",
+      "Wanting more worked examples that combine file access, parsing, and exception handling together.",
+      "Transferring this week’s ideas to larger systems such as games, websites, or UI-based apps."
+    ],
+    "practice_prompts": [
+      "Explain in your own words what problem try/catch is meant to solve.",
+      "Write or trace a very small example where a program reads from a file and something goes wrong.",
+      "Identify the difference between a user-facing error message and information that is mainly useful for debugging.",
+      "Take a simple file-reading example and ask: what errors could happen here?",
+      "Think of one small program feature, like save data or config loading, where file I/O and exception handling would need to work together.",
+      "Compare these questions: What can go wrong? What should the program do? What should the user see?",
+      "Prepare one example of a situation where catching every exception might not be the best design choice.",
+      "If you worked with StreamReader this week, review the steps of opening, reading, and parsing data, then consider where errors might occur in that process."
+    ],
+    "self_check_questions": [
+      "Can I explain what an exception is without just naming try/catch syntax?",
+      "Do I understand why a program might handle an error instead of just crashing?",
+      "Can I describe the role of try and the role of catch?",
+      "Can I name a few kinds of problems that might happen during file reading or file parsing?",
+      "Do I feel confident using file I/O together with exception handling in a small program?",
+      "Am I more unsure about syntax, or about choosing the right design decision?",
+      "Can I think of how this topic might appear in a game, a save system, or a web/UI setting?",
+      "Do I know at least one question I still have about exception handling in larger programs?"
+    ],
+    "before_next_class": [
+      "Quickly review your notes on try/catch in C#.",
+      "Review any examples involving StreamReader, file parsing, saving data, or reading/writing files.",
+      "If basic syntax already makes sense, spend your review time on judgment questions: what to catch, what message to show, and where handling should happen.",
+      "Bring one real-world application example you are curious about, such as save files, config files, or web/UI error handling.",
+      "Write down one question about exception design or file/data management that you want clarified in class.",
+      "Be ready for examples that connect this week’s basics to larger and more practical software contexts."
+    ]
+  }
+}

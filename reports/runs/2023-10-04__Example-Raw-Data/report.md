@@ -59,53 +59,53 @@
 
 ## Semantic Teaching Insights
 
-Students largely perceive this week as an introduction to Blazor, GUI work, and event-driven programming, but many do not yet feel conceptually grounded in how those pieces fit together. The strongest actionable need is to clarify the web stack around Blazor and to connect framework concepts to the current project through concrete, end-to-end examples and explicit project structure guidance.
+This week’s reflections suggest moderate perceived difficulty overall, with students identifying Blazor/GUI work and event-driven programming as the main things they learned. However, Blazor is also the dominant struggle area, especially around its purpose, how it connects to HTML, and how to use it effectively in the project. Many concerns appear implementation-focused rather than purely conceptual, particularly around project wiring and API use. Students also show strong forward interest in practical app-building topics such as styling, databases, GitHub, and GUI development. The most actionable response is to tighten the conceptual bridge between Blazor and the web stack while giving students a concrete project-oriented example and a clearer map of what background knowledge is expected.
 
 ### Top learned concepts
 
-- Blazor fundamentals and how Blazor projects work, including components/lifecycles
-- GUI implementation and working with interfaces in code
-- Event-driven programming, especially sequencing/order of actions
-- Project-based coding skills and rebuilding general programming fluency
-- A smaller set of students reported learning specific technical topics outside the main thread, such as enums, APIs, parallelism, and modeling tools
+- Blazor fundamentals and how Blazor works
+- GUI implementation and working with interfaces in Blazor
+- Event-driven programming, including ordering of actions and component behavior
+- Project-based coding practice and rebuilding general programming fluency
+- A smaller set of students mentioned specific technical topics such as enums, APIs, parallelism, Astah, and component lifecycles
 
 ### Top struggle clusters
 
-- Blazor uncertainty was the clearest struggle area, especially what it is for, how to use it, and how it compares to writing HTML directly
-- Web UI stack confusion: students appear unsure about the relationship among Blazor, HTML, and possibly CSS, including how much underlying web knowledge is expected
-- Project implementation friction: several reflections point to difficulty getting pieces of the project working together, adding code/features, or understanding required structure
-- API usage/integration remains muddy for some students, including how APIs fit into Blazor apps
-- A smaller set of coding questions surfaced around abstract concepts, documentation conventions, and language-specific features such as parallel programming
+- Blazor confusion is the largest struggle cluster, especially what it is for, how to use it, and how it differs from writing HTML directly
+- Front-end web stack uncertainty: students are unsure how much HTML knowledge is needed and how Blazor relates to HTML/CSS
+- Project implementation questions, including wiring pieces together, adding code/features, and making the project function correctly
+- Using APIs within Blazor/apps appears to be a recurring pain point
+- Some isolated coding questions remain around abstract concepts, XML documentation conventions, and language support for parallel programming
 
 ### Future interest clusters
 
-- Students want more practical GUI/app-building instruction, including customizing appearance and making apps/websites look better
-- There is interest in the broader web-development toolchain around Blazor, especially CSS, HTML context, and interface customization
-- Students want concrete project support: seeing the full code path for the project, reducing code complexity, and understanding implementation patterns
-- Some students are looking ahead to adjacent software topics such as databases, GitHub workflow, file I/O, pointers/references, and application development more broadly
-- A few students expressed curiosity about historical or cross-platform/event-driven contexts beyond the immediate course scope
+- How to build and customize GUIs/apps, including visual styling and interface design
+- Web/app development tooling and stack topics such as CSS, databases, GitHub/repositories, and application development
+- Writing cleaner or more efficient code and understanding project-required code after submission
+- File and data handling topics such as stream readers/writers
+- Broader systems/programming curiosity beyond immediate course scope, including pointers/references, legacy event-driven systems, and graphics-related topics
 
 ### Mismatches
 
-- Blazor appears in both learned and struggled themes, suggesting many students feel they were introduced to it but do not yet have a stable mental model
-- GUI appears across learned, struggled, and future-interest data, indicating students see it as important but still underdeveloped in confidence
-- Students mention event-driven programming as something learned, but at least some still want broader applications or contexts, suggesting concept recognition without transfer yet
-- The difficulty rating is moderately high overall, which fits the pattern of students perceiving exposure to new ideas while still feeling uncertain about implementation details
-- Some reflections reference topics not central to the dominant weekly themes (for example enums, parallelism, APIs, file I/O, pointers/references), which may indicate project-driven variation in what students focused on rather than a single shared point of confusion
+- Blazor is simultaneously the most common perceived learning area and the most common struggle area, suggesting exposure without stable conceptual grounding
+- Students report learning event-driven programming, but future/struggle responses suggest they still want more applied context and transfer to other platforms/use cases
+- Students perceive GUI/Blazor work as central, but several questions show uncertainty about prerequisite web knowledge like HTML and CSS
+- Reflections include several topics that seem project-driven or individually sourced rather than clearly tied to a single weekly focus, indicating uneven takeaways across students
+- At least one response indicates missed class and inability to reconstruct what was covered from posted notes, pointing to an access/continuity gap rather than content difficulty alone
 
 ### Teaching adjustments
 
-- Give a short conceptual comparison between Blazor and plain HTML/CSS so students understand what Blazor abstracts, what it still relies on, and why the course is using it
-- Provide one or two annotated end-to-end examples of a simple Blazor GUI that show components, events, styling hooks, and data flow together
-- Separate 'framework questions' from 'project questions' in class or office hours; students seem to need both conceptual framing and implementation troubleshooting
-- Offer a compact checklist or architecture diagram for the current project so students can see how classes, runtime behavior, and UI pieces connect
-- Add a brief styling mini-lesson or resource set on basic HTML/CSS within Blazor, since students are asking how to move beyond default appearance
-- Reinforce API usage with a concrete example inside the current app context, since students seem unsure how API concepts transfer into Blazor projects
+- Provide a short conceptual comparison between Blazor, HTML, CSS, and general web UI development: what each layer does, what students are expected to know now, and what can remain basic
+- Use one worked example that traces a simple Blazor app from UI markup to event handling to component lifecycle so students can connect terminology to execution
+- Create a targeted mini-FAQ for the project covering common implementation blockers: wiring classes together, adding features, using APIs, and expected submission technologies
+- Separate 'core course expectations' from 'nice-to-know extensions' so students know whether questions like advanced styling, mobile usage, or alternate languages are required or exploratory
+- Offer a post-deadline project debrief that walks through one clean reference solution or annotated design choices, since students explicitly want to understand all code needed after the assignment is due
+- Consider a brief catch-up artifact for absent students, such as a 5-minute recap or weekly concept map, since notes alone did not help at least one student recover the week’s material
 
 ### Suggested follow-up exit-ticket questions
 
 - What is still unclear to you about the relationship between Blazor, HTML, and CSS?
-- Which part of the current project architecture is hardest to connect: data/classes, events, UI components, or styling?
-- After this week, how would you explain event-driven programming in your own words, and where are you still unsure?
-- What single worked example would most help you right now: basic Blazor page setup, event handling, API integration, or project structure?
-- How much prior web-development experience do you have with HTML/CSS, and is that affecting your comfort with Blazor?
+- Which specific part of the current project is hardest right now: UI layout, event handling, class interactions, API use, or debugging?
+- After this week, how confident do you feel explaining what event-driven programming means in one sentence?
+- What one example would help you most next class: a Blazor basics walkthrough, an API-in-Blazor demo, or a project architecture example?
+- What web/app development topic feels most worth learning next for your own goals: styling, databases, GitHub workflow, file I/O, or something else?

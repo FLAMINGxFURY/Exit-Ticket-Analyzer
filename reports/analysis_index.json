@@ -1,0 +1,28 @@
+{
+  "processed_files": {
+    "data/exit_tickets/Example Raw Data.csv": {
+      "sha256": "52f9c24f094036d7a71e04875a6524c3f8de61641c6cf40e69a609bade4083b5",
+      "week_label": "2023-10-04",
+      "run_dir": "reports/runs/2023-10-04__Example-Raw-Data",
+      "processed_at_utc": "2026-04-20T21:24:22.955502+00:00"
+    },
+    "data/exit_tickets/Week 13 Exit Ticket - CSCI 1260.csv": {
+      "sha256": "eabdb4e93bfbe304850cf9187d717b903786d2cd1e7939e5fa074e50e5a2c2e3",
+      "week_label": "2026-04-17",
+      "run_dir": "reports/runs/2026-04-17__Week-13-Exit-Ticket---CSCI-1260",
+      "processed_at_utc": "2026-04-20T21:25:01.268674+00:00"
+    },
+    "data/exit_tickets/Week 13 Exit Ticket - CSCI 2210.csv": {
+      "sha256": "e0aba54473c3e3d3eb1324e495d6c8ba257e71665bb1da8d9078605abd648a11",
+      "week_label": "2026-04-17",
+      "run_dir": "reports/runs/2026-04-17__Week-13-Exit-Ticket---CSCI-2210",
+      "processed_at_utc": "2026-04-20T21:25:38.249774+00:00"
+    },
+    "data/exit_tickets/Week 13 Exit Ticket - CSCI 2910.csv": {
+      "sha256": "344768a479975c02af4f5c710cd140940428142badc8a8aa2a4cba69ecdf0730",
+      "week_label": "2026-04-19",
+      "run_dir": "reports/runs/2026-04-19__Week-13-Exit-Ticket---CSCI-2910",
+      "processed_at_utc": "2026-04-20T21:27:54.880598+00:00"
+    }
+  }
+}
