@@ -1,0 +1,69 @@
+Org Defined ID,Username,FirstName,LastName,Attempt #,Attempt Start,Attempt End,Section #,Q #,Q Type,Q Title,Q Text,Bonus?,Difficulty,Answer,Answer Match,Score,Out Of
+,,,,1,4/19/2026 22:09,4/19/2026 22:10,,1,WR,,What is one thing you learned this week?,FALSE,1,continous intergration,,0,1
+,,,,1,4/19/2026 22:09,4/19/2026 22:10,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,How important is docker,,0,1
+,,,,1,4/19/2026 22:09,4/19/2026 22:10,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,more about docker,,0,1
+,,,,1,4/19/2026 22:09,4/19/2026 22:10,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,4/16/2026 21:16,4/16/2026 21:22,,1,WR,,What is one thing you learned this week?,FALSE,1,we learned about how visualization works within windows and other systems,,0,1
+,,,,1,4/16/2026 21:16,4/16/2026 21:22,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,n/a,,0,1
+,,,,1,4/16/2026 21:16,4/16/2026 21:22,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,how to use linux in any form,,0,1
+,,,,1,4/16/2026 21:16,4/16/2026 21:22,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,4/16/2026 23:37,4/16/2026 23:38,,1,WR,,What is one thing you learned this week?,FALSE,1,virtualization,,0,1
+,,,,1,4/16/2026 23:37,4/16/2026 23:38,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Is this the same as VMs?,,0,1
+,,,,1,4/16/2026 23:37,4/16/2026 23:38,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,More about virtualization,,0,1
+,,,,1,4/16/2026 23:37,4/16/2026 23:38,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/15/2026 14:25,4/15/2026 14:27,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned how to create unit tests in my programs.,,0,1
+,,,,1,4/15/2026 14:25,4/15/2026 14:27,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Would I be able to make unit tests in Python? If I can how much different is it from C#?,,0,1
+,,,,1,4/15/2026 14:25,4/15/2026 14:27,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,I'd like to learn how to create unit tests in SQL. Surely there's a way.,,0,1
+,,,,1,4/15/2026 14:25,4/15/2026 14:27,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,4/16/2026 22:04,4/16/2026 22:06,,1,WR,,What is one thing you learned this week?,FALSE,1,containers are a way to package everything an application need to run together,,0,1
+,,,,1,4/16/2026 22:04,4/16/2026 22:06,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,N/A,,0,1
+,,,,1,4/16/2026 22:04,4/16/2026 22:06,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,N/A,,0,1
+,,,,1,4/16/2026 22:04,4/16/2026 22:06,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,4/17/2026 0:20,4/17/2026 0:21,,1,WR,,What is one thing you learned this week?,FALSE,1,We learned about HyperV,,0,1
+,,,,1,4/17/2026 0:20,4/17/2026 0:21,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,none,,0,1
+,,,,1,4/17/2026 0:20,4/17/2026 0:21,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,idk,,0,1
+,,,,1,4/17/2026 0:20,4/17/2026 0:21,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/16/2026 21:11,4/16/2026 21:12,,1,WR,,What is one thing you learned this week?,FALSE,1,Hypervisors virtualize the system recourses used by an OS,,0,1
+,,,,1,4/16/2026 21:11,4/16/2026 21:12,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Nothing so far,,0,1
+,,,,1,4/16/2026 21:11,4/16/2026 21:12,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,I do not know,,0,1
+,,,,1,4/16/2026 21:11,4/16/2026 21:12,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,4/16/2026 21:31,4/16/2026 21:33,,1,WR,,What is one thing you learned this week?,FALSE,1,"Hypervisor: operating systems manage system resources for applications, they visualize the system resources allocated to operating systems",,0,1
+,,,,1,4/16/2026 21:31,4/16/2026 21:33,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,How does Hyper-V networking (virtual switches) work,,0,1
+,,,,1,4/16/2026 21:31,4/16/2026 21:33,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,How do hyper v checkpoints work and what are some uses ,,0,1
+,,,,1,4/16/2026 21:31,4/16/2026 21:33,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,4/16/2026 17:00,4/16/2026 17:01,,1,WR,,What is one thing you learned this week?,FALSE,1,"How to do CI integration, and also how to use Docker",,0,1
+,,,,1,4/16/2026 17:00,4/16/2026 17:01,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,nothing,,0,1
+,,,,1,4/16/2026 17:00,4/16/2026 17:01,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,nothing ,,0,1
+,,,,1,4/16/2026 17:00,4/16/2026 17:01,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/17/2026 15:07,4/17/2026 15:07,,1,WR,,What is one thing you learned this week?,FALSE,1,How to use docker,,0,1
+,,,,1,4/17/2026 15:07,4/17/2026 15:07,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Nothing,,0,1
+,,,,1,4/17/2026 15:07,4/17/2026 15:07,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Docker,,0,1
+,,,,1,4/17/2026 15:07,4/17/2026 15:07,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/16/2026 13:02,4/16/2026 13:06,,1,WR,,What is one thing you learned this week?,FALSE,1,Hypervisor and the correlation it has with hardware and OS. I never really knew what it was so it was good to know.,,0,1
+,,,,1,4/16/2026 13:02,4/16/2026 13:06,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,What would happen if we didnt have a hypervisor?,,0,1
+,,,,1,4/16/2026 13:02,4/16/2026 13:06,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,"These new topics are very grand in trying to understand. I am having difficulty trying to grasp the ""big picture."" I would like to work with maybe a different OS than Windows for working on a project or something to see how things would be different, perhaps.",,0,1
+,,,,1,4/16/2026 13:02,4/16/2026 13:06,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,4/15/2026 15:16,4/18/2026 14:25,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned how unit testing helps check if different parts of a server-side program are working correctly.,,0,1
+,,,,1,4/15/2026 15:16,4/18/2026 14:25,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,My question is how to know what kinds of unit tests I should write for different parts of a web application.,,0,1
+,,,,1,4/15/2026 15:16,4/18/2026 14:25,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Further  learn how to fully test APIs and databases in real server-side projects.,,0,1
+,,,,1,4/15/2026 15:16,4/18/2026 14:25,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/18/2026 13:29,4/18/2026 13:38,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned about Hypervisors and how they are used to run operating systems in operating systems(Android in Windows).,,0,1
+,,,,1,4/18/2026 13:29,4/18/2026 13:38,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Do you have any recommendations on how to test the Discord bot?,,0,1
+,,,,1,4/18/2026 13:29,4/18/2026 13:38,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,How to use requests in Python to connect to FastAPI.,,0,1
+,,,,1,4/18/2026 13:29,4/18/2026 13:38,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,4,1,1
+,,,,1,4/16/2026 15:18,4/16/2026 15:21,,1,WR,,What is one thing you learned this week?,FALSE,1,LEarned how to run unit tests,,0,1
+,,,,1,4/16/2026 15:18,4/16/2026 15:21,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,successfully pushing vs soultions to github,,0,1
+,,,,1,4/16/2026 15:18,4/16/2026 15:21,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,collaborating on github on big projects,,0,1
+,,,,1,4/16/2026 15:18,4/16/2026 15:21,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,4/9/2026 18:44,4/9/2026 18:46,,1,WR,,What is one thing you learned this week?,FALSE,1,How to use workflow in GitHub to test compatibility with different operating systems. ,,0,1
+,,,,1,4/9/2026 18:44,4/9/2026 18:46,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,N/A,,0,1
+,,,,1,4/9/2026 18:44,4/9/2026 18:46,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,N/A,,0,1
+,,,,1,4/9/2026 18:44,4/9/2026 18:46,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,4/16/2026 21:38,4/16/2026 21:44,,1,WR,,What is one thing you learned this week?,FALSE,1,"Learned about using WSL instead of VMs/dual booting, pretty cool option. ",,0,1
+,,,,1,4/16/2026 21:38,4/16/2026 21:44,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,How new is the widespread adoption of API integration for businesses?,,0,1
+,,,,1,4/16/2026 21:38,4/16/2026 21:44,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,How to code games. ,,0,1
+,,,,1,4/16/2026 21:38,4/16/2026 21:44,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/16/2026 23:31,4/16/2026 23:33,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned how GitHub Actions can be used to set up a CI workflow with MSTest,,0,1
+,,,,1,4/16/2026 23:31,4/16/2026 23:33,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,"How does this scale in a real company setting where you have multiple developers pushing at the same time? Like if two people push conflicting changes that both pass their own tests but break when combined, does the CI pipeline catch that, or is that something you have to handle with branch protection rules and required reviews on top of the workflow?",,0,1
+,,,,1,4/16/2026 23:31,4/16/2026 23:33,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,I'd like to learn more about the CD side of it — not just running tests but actually auto-deploying to something like Azure or AWS once the build passes.,,0,1
+,,,,1,4/16/2026 23:31,4/16/2026 23:33,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1

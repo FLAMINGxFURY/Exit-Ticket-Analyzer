@@ -1,0 +1,106 @@
+Org Defined ID,Username,FirstName,LastName,Attempt #,Attempt Start,Attempt End,Section #,Q #,Q Type,Q Title,Q Text,Bonus?,Difficulty,Answer,Answer Match,Score,Out Of
+,,,,1,4/15/2026 16:48,4/15/2026 16:50,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned about heaps,,1,1
+,,,,1,4/15/2026 16:48,4/15/2026 16:50,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,What are heaps? Just kidding.,,1,1
+,,,,1,4/15/2026 16:48,4/15/2026 16:50,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,More about heaps,,1,1
+,,,,1,4/15/2026 16:48,4/15/2026 16:50,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,8.5,1,1
+,,,,1,4/16/2026 23:13,4/16/2026 23:14,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned about caching and how to implement it,,1,1
+,,,,1,4/16/2026 23:13,4/16/2026 23:14,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Caching huge data sets,,1,1
+,,,,1,4/16/2026 23:13,4/16/2026 23:14,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,How caching fits into a grander project,,1,1
+,,,,1,4/16/2026 23:13,4/16/2026 23:14,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/15/2026 15:01,4/15/2026 15:02,,1,WR,,What is one thing you learned this week?,FALSE,1,Binary heaps and trees,,1,1
+,,,,1,4/15/2026 15:01,4/15/2026 15:02,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Applications of this,,1,1
+,,,,1,4/15/2026 15:01,4/15/2026 15:02,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,"More about ""legs""",,1,1
+,,,,1,4/15/2026 15:01,4/15/2026 15:02,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6.7,1,1
+,,,,1,4/16/2026 21:45,4/16/2026 21:55,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned about the efficiency of using hash tables for searches.,,1,1
+,,,,1,4/16/2026 21:45,4/16/2026 21:55,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,N/A,,1,1
+,,,,1,4/16/2026 21:45,4/16/2026 21:55,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Another programming language like C or TypeScript,,1,1
+,,,,1,4/16/2026 21:45,4/16/2026 21:55,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/16/2026 12:30,4/16/2026 12:32,,1,WR,,What is one thing you learned this week?,FALSE,1,This week I learned about hash collisions which happen when one hash can lead to two seperate files or paths. With modern solutions this happens less (for example some hash might lead to some petabyte bit count file or a few amount of bit count file where they just wouldn't be able to collide in practical contexts),,1,1
+,,,,1,4/16/2026 12:30,4/16/2026 12:32,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Nothing!,,1,1
+,,,,1,4/16/2026 12:30,4/16/2026 12:32,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,"I'm not sure what else I'd like to learn about this topic, perhaps learn what I am too ignorant to know that I don't know it.",,1,1
+,,,,1,4/16/2026 12:30,4/16/2026 12:32,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,4/16/2026 23:37,4/16/2026 23:39,,1,WR,,What is one thing you learned this week?,FALSE,1,Learned about binomial heap.,,1,1
+,,,,1,4/16/2026 23:37,4/16/2026 23:39,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Are there other forms of heaps not discussed.,,1,1
+,,,,1,4/16/2026 23:37,4/16/2026 23:39,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Some older data structures no longer in use.,,1,1
+,,,,1,4/16/2026 23:37,4/16/2026 23:39,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/17/2026 18:14,4/17/2026 18:14,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned more about dictionaries and practical uses/operations of them,,1,1
+,,,,1,4/17/2026 18:14,4/17/2026 18:14,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,I don't have any questions,,1,1
+,,,,1,4/17/2026 18:14,4/17/2026 18:14,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,I would like to work with dictionaries more as I really like using them :D,,1,1
+,,,,1,4/17/2026 18:14,4/17/2026 18:14,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,4,1,1
+,,,,1,4/17/2026 21:29,4/17/2026 21:31,,1,WR,,What is one thing you learned this week?,FALSE,1,Binary search and Probing,,1,1
+,,,,1,4/17/2026 21:29,4/17/2026 21:31,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,How does Hashed indexing and associative array works?,,1,1
+,,,,1,4/17/2026 21:29,4/17/2026 21:31,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,More algorithms and especially teach me a realistic one,,1,1
+,,,,1,4/17/2026 21:29,4/17/2026 21:31,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,8.9,1,1
+,,,,1,4/15/2026 14:18,4/15/2026 14:21,,1,WR,,What is one thing you learned this week?,FALSE,1,I think me and binomial heaps are going to get into a fight.,,1,1
+,,,,1,4/15/2026 14:18,4/15/2026 14:21,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,"Nothing but I do have a question, would you rather be a strawberry with human thoughts or a human with strawberry thoughts, and why?",,1,1
+,,,,1,4/15/2026 14:18,4/15/2026 14:21,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,The answer to my previous question,,1,1
+,,,,1,4/15/2026 14:18,4/15/2026 14:21,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,4,1,1
+,,,,1,4/16/2026 23:39,4/16/2026 23:41,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned about dictionaries and different heaps,,1,1
+,,,,1,4/16/2026 23:39,4/16/2026 23:41,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,What circumstances requires certain types of heaps or other data structures,,1,1
+,,,,1,4/16/2026 23:39,4/16/2026 23:41,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,more algorithms based stuff or learning how to apply DSA for like coding interviews,,1,1
+,,,,1,4/16/2026 23:39,4/16/2026 23:41,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,4,1,1
+,,,,1,4/16/2026 21:09,4/16/2026 21:10,,1,WR,,What is one thing you learned this week?,FALSE,1,About heaps and dictionaries.,,1,1
+,,,,1,4/16/2026 21:09,4/16/2026 21:10,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Practical applications?,,1,1
+,,,,1,4/16/2026 21:09,4/16/2026 21:10,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,More about hashing.,,1,1
+,,,,1,4/16/2026 21:09,4/16/2026 21:10,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/16/2026 18:49,4/16/2026 19:00,,1,WR,,What is one thing you learned this week?,FALSE,1,"So it happens to be that two of my classes are talking about hashing tables and hash collisions at the same time. Though back in community college i did learn about hashing i did not learn much about how to deal with collisions, rather we just manually generated hashes. I did learn in this week's lecture (online material) about different kinds of probing. For instance i had no clue that chaining (holding many values in a linked list at a particular key hash value (deposited into a bucket)) had a formal name i always just called it a hash bucket (which is also a term for it).",,1,1
+,,,,1,4/16/2026 18:49,4/16/2026 19:00,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,"Still nothing, though i have not been attending lectures due to sheer laziness and having conflicts with online work. Most of the information has been filled in by a peer or the suplemental reading.",,1,1
+,,,,1,4/16/2026 18:49,4/16/2026 19:00,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,At the moment i can't think of anything.,,1,1
+,,,,1,4/16/2026 18:49,4/16/2026 19:00,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,2,1,1
+,,,,1,4/16/2026 22:25,4/16/2026 22:25,,1,WR,,What is one thing you learned this week?,FALSE,1,hashing,,1,1
+,,,,1,4/16/2026 22:25,4/16/2026 22:25,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,n/a,,1,1
+,,,,1,4/16/2026 22:25,4/16/2026 22:25,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,n/a,,1,1
+,,,,1,4/16/2026 22:25,4/16/2026 22:25,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/16/2026 14:50,4/16/2026 14:53,,1,WR,,What is one thing you learned this week?,FALSE,1,One thing I learned is hashing. ,,1,1
+,,,,1,4/16/2026 14:50,4/16/2026 14:53,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,No questions.,,1,1
+,,,,1,4/16/2026 14:50,4/16/2026 14:53,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Nothing comes to mind. ,,1,1
+,,,,1,4/16/2026 14:50,4/16/2026 14:53,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,4/16/2026 17:17,4/16/2026 17:22,,1,WR,,What is one thing you learned this week?,FALSE,1,Using the fibonacci sequence to hash is faster than modulo based hasing,,1,1
+,,,,1,4/16/2026 17:17,4/16/2026 17:22,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,None,,1,1
+,,,,1,4/16/2026 17:17,4/16/2026 17:22,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,How to parry better so I don't have bruises and welts,,1,1
+,,,,1,4/16/2026 17:17,4/16/2026 17:22,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,8,1,1
+,,,,1,4/15/2026 17:09,4/15/2026 17:16,,1,WR,,What is one thing you learned this week?,FALSE,1,"I learned about Hashed Indexing and Chaining. The idea is that hashes can be created out of values/objects and that hash can be utilized to insert and search an array in a particular way that makes finding objects easier. However, hash collisions can occur which is where chaining comes into play. Chaining utilizes linked lists and hashed indexing in order to account for instances where hash collisions occur by storing objects with the same hashes within the same linked list.",,1,1
+,,,,1,4/15/2026 17:09,4/15/2026 17:16,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,"So we talked about dynamic programming in the sense of saving time through increased space, what about saving space through increased time?",,1,1
+,,,,1,4/15/2026 17:09,4/15/2026 17:16,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,What other combinations of data structures / concepts are there similar to that of chaining?,,1,1
+,,,,1,4/15/2026 17:09,4/15/2026 17:16,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,4/13/2026 19:41,4/13/2026 19:42,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned about heaps such as fibonacci heaps.,,1,1
+,,,,1,4/13/2026 19:41,4/13/2026 19:42,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,N/A,,1,1
+,,,,1,4/13/2026 19:41,4/13/2026 19:42,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,N/A,,1,1
+,,,,1,4/13/2026 19:41,4/13/2026 19:42,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,8,1,1
+,,,,1,4/16/2026 22:34,4/16/2026 22:36,,1,WR,,What is one thing you learned this week?,FALSE,1,fibonacci sequence and hash.,,1,1
+,,,,1,4/16/2026 22:34,4/16/2026 22:36,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Nothing.,,1,1
+,,,,1,4/16/2026 22:34,4/16/2026 22:36,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,i just try my best to learn everything that i can in the class.,,1,1
+,,,,1,4/16/2026 22:34,4/16/2026 22:36,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,8,1,1
+,,,,1,4/15/2026 8:18,4/15/2026 8:18,,1,WR,,What is one thing you learned this week?,FALSE,1,Heaps ,,1,1
+,,,,1,4/15/2026 8:18,4/15/2026 8:18,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,N/A,,1,1
+,,,,1,4/15/2026 8:18,4/15/2026 8:18,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Java,,1,1
+,,,,1,4/15/2026 8:18,4/15/2026 8:18,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,4,1,1
+,,,,1,4/15/2026 15:09,4/15/2026 15:10,,1,WR,,What is one thing you learned this week?,FALSE,1,Trees dont have legs,,1,1
+,,,,1,4/15/2026 15:09,4/15/2026 15:10,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Why dont trees have legs,,1,1
+,,,,1,4/15/2026 15:09,4/15/2026 15:10,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,How can i give trees legs,,1,1
+,,,,1,4/15/2026 15:09,4/15/2026 15:10,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,4/15/2026 15:06,4/15/2026 15:07,,1,WR,,What is one thing you learned this week?,FALSE,1,We learned about some cool advanced heap structures,,1,1
+,,,,1,4/15/2026 15:06,4/15/2026 15:07,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,N/A,,1,1
+,,,,1,4/15/2026 15:06,4/15/2026 15:07,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,N/A,,1,1
+,,,,1,4/15/2026 15:06,4/15/2026 15:07,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7-Jun,1,1
+,,,,1,4/16/2026 14:01,4/16/2026 14:06,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned what a binomial heap is and what it looks like.,,1,1
+,,,,1,4/16/2026 14:01,4/16/2026 14:06,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,"How many heaps are there?
+",,1,1
+,,,,1,4/16/2026 14:01,4/16/2026 14:06,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,N/A,,1,1
+,,,,1,4/16/2026 14:01,4/16/2026 14:06,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,3,1,1
+,,,,1,4/16/2026 21:44,4/16/2026 21:46,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned about Fibonacci Heaps (not related to Finbonacci Sequence) and Fibonacci Probing (heavily related to Fibonacci Sequence).,,1,1
+,,,,1,4/16/2026 21:44,4/16/2026 21:46,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,N/A,,1,1
+,,,,1,4/16/2026 21:44,4/16/2026 21:46,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Nothing in particular.,,1,1
+,,,,1,4/16/2026 21:44,4/16/2026 21:46,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,4,1,1
+,,,,1,4/15/2026 23:05,4/15/2026 23:10,,1,WR,,What is one thing you learned this week?,FALSE,1,"I learned a little bit about associative data structures and hashing. I will need to review these topics further outside of class, but I did learn the basics.",,1,1
+,,,,1,4/15/2026 23:05,4/15/2026 23:10,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,I'm not sure I have any major questions.,,1,1
+,,,,1,4/15/2026 23:05,4/15/2026 23:10,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,"I'd like to see practical applications of hashing techniques. However, this might be something I can simply research online.",,1,1
+,,,,1,4/15/2026 23:05,4/15/2026 23:10,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,4/16/2026 13:13,4/16/2026 13:30,,1,WR,,What is one thing you learned this week?,FALSE,1,I wasn't able to attend class this week unfortunately.,,1,1
+,,,,1,4/16/2026 13:13,4/16/2026 13:30,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,I have no questions at this time.,,1,1
+,,,,1,4/16/2026 13:13,4/16/2026 13:30,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,I would like to learn how nodes are used in databases and other real-world examples.,,1,1
+,,,,1,4/16/2026 13:13,4/16/2026 13:30,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,4/16/2026 21:35,4/16/2026 21:40,,1,WR,,What is one thing you learned this week?,FALSE,1,The difference between set-constrained and associative data structures,,1,1
+,,,,1,4/16/2026 21:35,4/16/2026 21:40,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,What is the impact of table resizing on hash table efficiency?,,1,1
+,,,,1,4/16/2026 21:35,4/16/2026 21:40,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,How cryptographic hash functions differ from standard hashing in data structures,,1,1
+,,,,1,4/16/2026 21:35,4/16/2026 21:40,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1

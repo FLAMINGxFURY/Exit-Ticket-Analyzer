@@ -1,0 +1,65 @@
+Org Defined ID,Username,FirstName,LastName,Attempt #,Attempt Start,Attempt End,Section #,Q #,Q Type,Q Title,Q Text,Bonus?,Difficulty,Answer,Answer Match,Score,Out Of
+,,,,1,4/16/2026 23:00,4/16/2026 23:04,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned about exceptions and how to handle them using catch.,,0,1
+,,,,1,4/16/2026 23:00,4/16/2026 23:04,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,I don't think I have any; exceptions are pretty straightforward.,,0,1
+,,,,1,4/16/2026 23:00,4/16/2026 23:04,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,"I'd like to learn where you were on Wednesday, if that counts :)",,0,1
+,,,,1,4/16/2026 23:00,4/16/2026 23:04,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,4/17/2026 9:03,4/17/2026 9:05,,1,WR,,What is one thing you learned this week?,FALSE,1,How to use a try/except in C#,,0,1
+,,,,1,4/17/2026 9:03,4/17/2026 9:05,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,No Questions ,,0,1
+,,,,1,4/17/2026 9:03,4/17/2026 9:05,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,C++ ,,0,1
+,,,,1,4/17/2026 9:03,4/17/2026 9:05,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,10,1,1
+,,,,1,4/15/2026 13:03,4/15/2026 13:03,,1,WR,,What is one thing you learned this week?,FALSE,1,About try and catch.,,0,1
+,,,,1,4/15/2026 13:03,4/15/2026 13:03,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,N/A,,0,1
+,,,,1,4/15/2026 13:03,4/15/2026 13:03,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,N/A,,0,1
+,,,,1,4/15/2026 13:03,4/15/2026 13:03,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/16/2026 23:34,4/16/2026 23:35,,1,WR,,What is one thing you learned this week?,FALSE,1,About the StreamReader in C Sharp,,0,1
+,,,,1,4/16/2026 23:34,4/16/2026 23:35,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Should a file have a limit if it were to be opened in C sharp to prevent too much data at once,,0,1
+,,,,1,4/16/2026 23:34,4/16/2026 23:35,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Hardware focused upgrades,,0,1
+,,,,1,4/16/2026 23:34,4/16/2026 23:35,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,4/15/2026 19:00,4/15/2026 19:07,,1,WR,,What is one thing you learned this week?,FALSE,1,"We learned about excepton handling, specifically how to ""try"" blocks of code and ""catch"" specified arguments in order to display user-friendly error messages or ensure that a program can continue running when an error is encountered.",,0,1
+,,,,1,4/15/2026 19:00,4/15/2026 19:07,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,None,,0,1
+,,,,1,4/15/2026 19:00,4/15/2026 19:07,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,I would like to learn how to display error messages on blazor pages iwith exception handling.,,0,1
+,,,,1,4/15/2026 19:00,4/15/2026 19:07,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,4/17/2026 0:01,4/17/2026 0:06,,1,WR,,What is one thing you learned this week?,FALSE,1,Debugging and exception handling,,0,1
+,,,,1,4/17/2026 0:01,4/17/2026 0:06,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,What is a debugging tool that is almost always used regardless of the project?,,0,1
+,,,,1,4/17/2026 0:01,4/17/2026 0:06,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,I'd like to learn more about search algorithms ,,0,1
+,,,,1,4/17/2026 0:01,4/17/2026 0:06,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,10-Jul,1,1
+,,,,1,4/16/2026 11:08,4/16/2026 11:11,,1,WR,,What is one thing you learned this week?,FALSE,1,Fancy if statements,,0,1
+,,,,1,4/16/2026 11:08,4/16/2026 11:11,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,None,,0,1
+,,,,1,4/16/2026 11:08,4/16/2026 11:11,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,None,,0,1
+,,,,1,4/16/2026 11:08,4/16/2026 11:11,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/15/2026 21:18,4/15/2026 21:19,,1,WR,,What is one thing you learned this week?,FALSE,1,Na,,0,1
+,,,,1,4/15/2026 21:18,4/15/2026 21:19,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Na,,0,1
+,,,,1,4/15/2026 21:18,4/15/2026 21:19,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Na,,0,1
+,,,,1,4/15/2026 21:18,4/15/2026 21:19,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/16/2026 23:45,4/16/2026 23:51,,1,WR,,What is one thing you learned this week?,FALSE,1,Learned hoew to use the StreamReader class and parse data from files,,0,1
+,,,,1,4/16/2026 23:45,4/16/2026 23:51,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Does these classes have other applications that arent text-based?,,0,1
+,,,,1,4/16/2026 23:45,4/16/2026 23:51,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,How to use similar classes with other languages for different purposes,,0,1
+,,,,1,4/16/2026 23:45,4/16/2026 23:51,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/15/2026 13:04,4/15/2026 13:05,,1,WR,,What is one thing you learned this week?,FALSE,1,error handling,,0,1
+,,,,1,4/15/2026 13:04,4/15/2026 13:05,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,na,,0,1
+,,,,1,4/15/2026 13:04,4/15/2026 13:05,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,What does error handeling look like on a larger scale,,0,1
+,,,,1,4/15/2026 13:04,4/15/2026 13:05,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,4/16/2026 21:44,4/16/2026 21:45,,1,WR,,What is one thing you learned this week?,FALSE,1,Exception handling in C#,,0,1
+,,,,1,4/16/2026 21:44,4/16/2026 21:45,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,How much does the type of exception you throw matter?,,0,1
+,,,,1,4/16/2026 21:44,4/16/2026 21:45,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Are there any cases of large problems being caused by a lack of exceptions?,,0,1
+,,,,1,4/16/2026 21:44,4/16/2026 21:45,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,6,1,1
+,,,,1,4/16/2026 8:40,4/16/2026 8:51,,1,WR,,What is one thing you learned this week?,FALSE,1,How to save data in programs,,0,1
+,,,,1,4/16/2026 8:40,4/16/2026 8:51,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,How do programs hide data from users in file explorer?,,0,1
+,,,,1,4/16/2026 8:40,4/16/2026 8:51,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,How to make a game with save data,,0,1
+,,,,1,4/16/2026 8:40,4/16/2026 8:51,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,5,1,1
+,,,,1,4/16/2026 21:22,4/16/2026 21:27,,1,WR,,What is one thing you learned this week?,FALSE,1,More about inputing and outputing with files,,0,1
+,,,,1,4/16/2026 21:22,4/16/2026 21:27,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Is storing configurations files the best way to save configs when using a website or using a program or game?,,0,1
+,,,,1,4/16/2026 21:22,4/16/2026 21:27,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Use the files to make savepoints within projects or programs.,,0,1
+,,,,1,4/16/2026 21:22,4/16/2026 21:27,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,4/17/2026 8:45,4/17/2026 8:46,,1,WR,,What is one thing you learned this week?,FALSE,1,how to handle exceptions,,0,1
+,,,,1,4/17/2026 8:45,4/17/2026 8:46,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,is it possible to handle all exceptions,,0,1
+,,,,1,4/17/2026 8:45,4/17/2026 8:46,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,Different programming languages ,,0,1
+,,,,1,4/17/2026 8:45,4/17/2026 8:46,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,8,1,1
+,,,,1,4/16/2026 10:00,4/16/2026 10:12,,1,WR,,What is one thing you learned this week?,FALSE,1,I learned about exception handling and the difference between runtime errors and compile errors. I learned about the different methods for exception handling. ,,0,1
+,,,,1,4/16/2026 10:00,4/16/2026 10:12,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,"Would it be possible to seperate all of the code for exception handling into it's own class and distribute it where it was necessary with calls to that class, or would that just be making it messier and overcomplicating it?",,0,1
+,,,,1,4/16/2026 10:00,4/16/2026 10:12,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,I would like to learn about how to use vector arrays because I was reading a little bit about them and it sounded very useful and interesting. ,,0,1
+,,,,1,4/16/2026 10:00,4/16/2026 10:12,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,7,1,1
+,,,,1,4/16/2026 23:05,4/16/2026 23:09,,1,WR,,What is one thing you learned this week?,FALSE,1,Starting to understand exception handling more,,0,1
+,,,,1,4/16/2026 23:05,4/16/2026 23:09,,2,WR,,What is one question you have about the content we have covered so far?,FALSE,1,Would like some more examples of exception handling,,0,1
+,,,,1,4/16/2026 23:05,4/16/2026 23:09,,3,WR,,What is one thing you'd like to learn in the future?,FALSE,1,I want to start learning C and assembly ,,0,1
+,,,,1,4/16/2026 23:05,4/16/2026 23:09,,4,SA,,"On a scale of 1-10, how difficult has this class been so far?",FALSE,1,,8,1,1
