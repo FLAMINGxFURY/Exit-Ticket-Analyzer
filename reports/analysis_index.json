@@ -1,0 +1,10 @@
+{
+  "processed_files": {
+    "data/exit_tickets/Example Raw Data.csv": {
+      "sha256": "52f9c24f094036d7a71e04875a6524c3f8de61641c6cf40e69a609bade4083b5",
+      "week_label": "2023-10-04",
+      "run_dir": "reports/runs/2023-10-04__Example-Raw-Data",
+      "processed_at_utc": "2026-04-20T21:16:45.358015+00:00"
+    }
+  }
+}

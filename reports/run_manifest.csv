@@ -1,0 +1,2 @@
+source_file,week_label,run_dir,processed_at_utc,sha256
+data/exit_tickets/Example Raw Data.csv,2023-10-04,reports/runs/2023-10-04__Example-Raw-Data,2026-04-20T21:16:45.358015+00:00,52f9c24f094036d7a71e04875a6524c3f8de61641c6cf40e69a609bade4083b5

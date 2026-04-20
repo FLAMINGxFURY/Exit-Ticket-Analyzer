@@ -1,0 +1,306 @@
+{
+  "metrics": {
+    "week_label": "2023-10-04",
+    "source_file": "Example Raw Data.csv",
+    "response_counts": {
+      "learned": 28,
+      "struggled": 25,
+      "future": 26,
+      "difficulty_ratings": 28
+    },
+    "difficulty_summary": {
+      "count": 28,
+      "mean": 6.06,
+      "median": 6.0,
+      "min": 2.0,
+      "max": 9.0
+    },
+    "top_learned_terms": [
+      {
+        "term": "blazor",
+        "count": 5
+      },
+      {
+        "term": "programming",
+        "count": 5
+      },
+      {
+        "term": "code",
+        "count": 3
+      },
+      {
+        "term": "time",
+        "count": 3
+      },
+      {
+        "term": "project",
+        "count": 3
+      },
+      {
+        "term": "gui",
+        "count": 2
+      },
+      {
+        "term": "implementation",
+        "count": 2
+      },
+      {
+        "term": "done",
+        "count": 2
+      },
+      {
+        "term": "event",
+        "count": 2
+      },
+      {
+        "term": "driven",
+        "count": 2
+      },
+      {
+        "term": "event driven",
+        "count": 2
+      },
+      {
+        "term": "driven programming",
+        "count": 2
+      }
+    ],
+    "top_struggled_terms": [
+      {
+        "term": "blazor",
+        "count": 5
+      },
+      {
+        "term": "use",
+        "count": 5
+      },
+      {
+        "term": "need",
+        "count": 5
+      },
+      {
+        "term": "html",
+        "count": 4
+      },
+      {
+        "term": "not",
+        "count": 3
+      },
+      {
+        "term": "our",
+        "count": 3
+      },
+      {
+        "term": "add",
+        "count": 3
+      },
+      {
+        "term": "code",
+        "count": 3
+      },
+      {
+        "term": "gui",
+        "count": 3
+      },
+      {
+        "term": "don",
+        "count": 3
+      },
+      {
+        "term": "common",
+        "count": 2
+      },
+      {
+        "term": "coding",
+        "count": 2
+      }
+    ],
+    "top_future_terms": [
+      {
+        "term": "code",
+        "count": 5
+      },
+      {
+        "term": "make",
+        "count": 4
+      },
+      {
+        "term": "use",
+        "count": 4
+      },
+      {
+        "term": "not",
+        "count": 3
+      },
+      {
+        "term": "gui",
+        "count": 3
+      },
+      {
+        "term": "blazor",
+        "count": 3
+      },
+      {
+        "term": "development",
+        "count": 2
+      },
+      {
+        "term": "apps",
+        "count": 2
+      },
+      {
+        "term": "add",
+        "count": 2
+      },
+      {
+        "term": "look",
+        "count": 2
+      },
+      {
+        "term": "very",
+        "count": 2
+      },
+      {
+        "term": "work",
+        "count": 2
+      }
+    ],
+    "overlap_terms": [
+      "blazor",
+      "code",
+      "gui"
+    ],
+    "sample_reflections": {
+      "learned": [
+        "More about Blazor and GUI implementation",
+        "Things should be done in a certain order that things happen in the correct way. Event driven programming.",
+        "More about how blazor works.",
+        "I learned how you can Parse a ReadLine() into an Enum",
+        "How to make a code a playlist",
+        "parrellism and how its used",
+        "api",
+        "I learned a little bit on how to use astah.",
+        "I'll be honest, I think I spent all of my time in both class sessions this week desperately trying to code my project successfully, so I will say that I gained some of my ability to code back after forgetting a good amount of stuff over summer break.",
+        "Since I missed class Monday due to being sick, I have no idea what was covered. I cant tell what was discussed based off class notes 9.25 that was uploaded",
+        "I learned about the basics of event driven programming",
+        "We learned about component lifecycles in a blazor project."
+      ],
+      "struggled": [
+        "Can blazor be used for other things aside from just webpage design?",
+        "Are we able to submit projects in different yet common coding languages, and if not why",
+        "I am still confused on how to use an API in the Blazer apps",
+        "More understaning with Abstact when coding",
+        "how can we order an api",
+        "I've learned more about enums while doing the project.",
+        "Will we need to be learning HTML if all of our assignments are going to be in Blazor, or would you say that it's not that necessary and you can get away with just basic HTML knowledge?",
+        "What is the difference between using blazor vs. writting our own html script?",
+        "I would like to know about event driven programming geared toward mobile device usage",
+        "When doing an XML comment for a method with parameters, are we supposed to describe the parameter itself or what it does within the method?",
+        "I have questions about the project. Such as how to make the runtime go in between the album and song class.",
+        "in what languages allow you to use parallel programming"
+      ],
+      "future": [
+        "Application Development",
+        "pointers and references",
+        "I would like to learn how to change the backgrounds of the websites/blazer apps from the default white with purple side bar",
+        "Can we add you to respository for github. If so how?",
+        "database",
+        "Try to reduce the amount of code while using enums, and manipulating their data.",
+        "I would like to learn CSS in the future and how to make it look good. I think it's really interesting, I'm just not very artistically inclined and it looks very daunting.",
+        "i would like to learn how to use streamreader/writer. That was a major issue for me on my last 1260 attempt.",
+        "I would like to know about early event driven programming on legacy systems. I do not expect to learn this in class, though",
+        "How to work with a GUI.",
+        "graphic.h",
+        "I would like to learn all the code needed to make the project 1 work. Maybe after it is completely due and done."
+      ]
+    }
+  },
+  "ai_summary": {
+    "top_learned_concepts": [
+      "Blazor fundamentals and how Blazor projects work, including components/lifecycles",
+      "GUI implementation and working with interfaces in code",
+      "Event-driven programming, especially sequencing/order of actions",
+      "Project-based coding skills and rebuilding general programming fluency",
+      "A smaller set of students reported learning specific technical topics outside the main thread, such as enums, APIs, parallelism, and modeling tools"
+    ],
+    "top_struggle_clusters": [
+      "Blazor uncertainty was the clearest struggle area, especially what it is for, how to use it, and how it compares to writing HTML directly",
+      "Web UI stack confusion: students appear unsure about the relationship among Blazor, HTML, and possibly CSS, including how much underlying web knowledge is expected",
+      "Project implementation friction: several reflections point to difficulty getting pieces of the project working together, adding code/features, or understanding required structure",
+      "API usage/integration remains muddy for some students, including how APIs fit into Blazor apps",
+      "A smaller set of coding questions surfaced around abstract concepts, documentation conventions, and language-specific features such as parallel programming"
+    ],
+    "future_interest_clusters": [
+      "Students want more practical GUI/app-building instruction, including customizing appearance and making apps/websites look better",
+      "There is interest in the broader web-development toolchain around Blazor, especially CSS, HTML context, and interface customization",
+      "Students want concrete project support: seeing the full code path for the project, reducing code complexity, and understanding implementation patterns",
+      "Some students are looking ahead to adjacent software topics such as databases, GitHub workflow, file I/O, pointers/references, and application development more broadly",
+      "A few students expressed curiosity about historical or cross-platform/event-driven contexts beyond the immediate course scope"
+    ],
+    "mismatches": [
+      "Blazor appears in both learned and struggled themes, suggesting many students feel they were introduced to it but do not yet have a stable mental model",
+      "GUI appears across learned, struggled, and future-interest data, indicating students see it as important but still underdeveloped in confidence",
+      "Students mention event-driven programming as something learned, but at least some still want broader applications or contexts, suggesting concept recognition without transfer yet",
+      "The difficulty rating is moderately high overall, which fits the pattern of students perceiving exposure to new ideas while still feeling uncertain about implementation details",
+      "Some reflections reference topics not central to the dominant weekly themes (for example enums, parallelism, APIs, file I/O, pointers/references), which may indicate project-driven variation in what students focused on rather than a single shared point of confusion"
+    ],
+    "teaching_adjustments": [
+      "Give a short conceptual comparison between Blazor and plain HTML/CSS so students understand what Blazor abstracts, what it still relies on, and why the course is using it",
+      "Provide one or two annotated end-to-end examples of a simple Blazor GUI that show components, events, styling hooks, and data flow together",
+      "Separate 'framework questions' from 'project questions' in class or office hours; students seem to need both conceptual framing and implementation troubleshooting",
+      "Offer a compact checklist or architecture diagram for the current project so students can see how classes, runtime behavior, and UI pieces connect",
+      "Add a brief styling mini-lesson or resource set on basic HTML/CSS within Blazor, since students are asking how to move beyond default appearance",
+      "Reinforce API usage with a concrete example inside the current app context, since students seem unsure how API concepts transfer into Blazor projects"
+    ],
+    "followup_exit_ticket_questions": [
+      "What is still unclear to you about the relationship between Blazor, HTML, and CSS?",
+      "Which part of the current project architecture is hardest to connect: data/classes, events, UI components, or styling?",
+      "After this week, how would you explain event-driven programming in your own words, and where are you still unsure?",
+      "What single worked example would most help you right now: basic Blazor page setup, event handling, API integration, or project structure?",
+      "How much prior web-development experience do you have with HTML/CSS, and is that affecting your comfort with Blazor?"
+    ],
+    "short_instructor_summary": "Students largely perceive this week as an introduction to Blazor, GUI work, and event-driven programming, but many do not yet feel conceptually grounded in how those pieces fit together. The strongest actionable need is to clarify the web stack around Blazor and to connect framework concepts to the current project through concrete, end-to-end examples and explicit project structure guidance."
+  },
+  "study_guide": {
+    "title": "Study Guide for 2023-10-04",
+    "overview": "This week introduced many students to Blazor, GUI work, and event-driven programming. A lot of people reported learning the main ideas, but just as many are still unsure how the pieces fit together in practice. The overall difficulty felt moderately high, so the goal before next class is not to master everything at once, but to review the big picture, identify what is still unclear, and practice connecting concepts to the current project.",
+    "key_takeaways_to_review": [
+      "Blazor basics: what it is, how Blazor projects work, and the role of components/lifecycles.",
+      "GUI implementation: how interface pieces connect to code.",
+      "Event-driven programming: actions happen in response to events, and order/sequence matters.",
+      "Project structure matters: many tasks depend on putting code and components together in the right way.",
+      "Some students also encountered related topics such as enums, APIs, parallelism, and modeling tools while working on projects."
+    ],
+    "common_sticking_points": [
+      "Understanding what Blazor is for and how it differs from writing HTML directly.",
+      "Figuring out how much HTML/CSS knowledge is expected when working in Blazor.",
+      "Seeing how project pieces connect, especially classes, runtime behavior, UI pieces, and added features.",
+      "Understanding how APIs fit into Blazor apps.",
+      "Applying concepts beyond recognition: for example, knowing what event-driven programming is but not yet feeling confident using it."
+    ],
+    "practice_prompts": [
+      "In your own words, explain what Blazor is and why the course might use it for GUI/app work.",
+      "Sketch or describe how a simple interface action triggers code in an event-driven program.",
+      "Make a quick map of your current project: classes/data, UI components, events, and how information moves between them.",
+      "List one place in your project where order of operations matters.",
+      "Write down one question you still have about Blazor vs. HTML/CSS so you can bring it to class or office hours.",
+      "If APIs are part of your work, describe where the API would connect to the app and what job it would do.",
+      "Identify one part of your code that feels more complicated than it needs to be and note what you want clarified."
+    ],
+    "self_check_questions": [
+      "Can I explain the relationship among Blazor, HTML, and CSS at a basic level?",
+      "Can I identify what part of my confusion is conceptual versus project-specific?",
+      "Can I describe event-driven programming without just repeating the term?",
+      "Do I know which part of the project is hardest for me right now: data/classes, events, UI, styling, or integration?",
+      "Can I follow the flow of one feature from user action to code response?",
+      "Do I know what specific example or walkthrough would help me most next class?"
+    ],
+    "before_next_class": [
+      "Review your notes or project files and write a 2-3 sentence summary of how your current app is supposed to work.",
+      "Bring one concrete question about Blazor, project structure, or event handling.",
+      "Mark the exact point where you get stuck in the project instead of labeling the whole thing as confusing.",
+      "If appearance/customization is a concern, note one visual change you want to learn how to make.",
+      "If you missed class or feel behind, focus first on the core themes: Blazor, GUI structure, and event-driven flow."
+    ]
+  }
+}
