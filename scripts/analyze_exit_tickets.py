@@ -507,6 +507,8 @@ def render_study_guide_markdown(metrics: dict, study_guide: dict | None, ai_summ
         ("Key takeaways to review", "key_takeaways_to_review"),
         ("Common sticking points", "common_sticking_points"),
         ("Practice prompts", "practice_prompts"),
+        ("Example problems", "example_problems"),
+        ("Practical examples", "practical_examples"),
         ("Self-check questions", "self_check_questions"),
         ("Before next class", "before_next_class"),
     ]
