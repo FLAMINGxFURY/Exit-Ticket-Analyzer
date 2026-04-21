@@ -121,17 +121,27 @@ STUDY_GUIDE_SCHEMA = {
             "common_sticking_points": {
                 "type": "array",
                 "items": {"type": "string"},
-                "maxItems": 8
+                "maxItems": 5
             },
             "practice_prompts": {
                 "type": "array",
                 "items": {"type": "string"},
                 "maxItems": 8
             },
+            "example_problems": {
+                "type": "array",
+                "items": {"type": "string"},
+                "maxItems": 4
+            },
+            "practical_examples": {
+                "type": "array",
+                "items": {"type": "string"},
+                "maxItems": 4
+            },
             "self_check_questions": {
                 "type": "array",
                 "items": {"type": "string"},
-                "maxItems": 8
+                "maxItems": 6
             },
             "before_next_class": {
                 "type": "array",
@@ -145,6 +155,8 @@ STUDY_GUIDE_SCHEMA = {
             "key_takeaways_to_review",
             "common_sticking_points",
             "practice_prompts",
+            "example_problems",
+            "practical_examples",
             "self_check_questions",
             "before_next_class"
         ]
@@ -205,7 +217,7 @@ def tokenize_phrases(texts: Iterable[str], min_len: int = 3) -> Counter:
     return counter
 
 
-def top_items(counter: Counter, limit: int = 12, min_count: int = 2) -> list[tuple[str, int]]:
+def top_items(counter: Counter, limit: int = 6, min_count: int = 2) -> list[tuple[str, int]]:
     return [(k, v) for k, v in counter.most_common() if v >= min_count][:limit]
 
 
@@ -218,11 +230,11 @@ def classify_row(question_text: str) -> str:
     q = normalize_question_text(question_text)
     if "what is one thing you learned" in q:
         return "learned"
-    if "what is one question you have" in q or "what did you struggle" in q:
+    if "what is one question you have" in q:
         return "struggled"
-    if "what is one thing you'd like to learn" in q or "what do you want to learn" in q:
+    if "what is one thing you'd like to learn" in q:
         return "future"
-    if ("how difficult" in q and "1-10" in q) or "scale of 1-10" in q:
+    if "how difficult" in q:
         return "difficulty"
     return "other"
 
@@ -353,7 +365,8 @@ def build_study_guide_prompt(metrics: dict, ai_summary: dict | None) -> str:
         "- Base the guide only on the provided weekly reflections and instructor summary.\n"
         "- These are completion-grade reflections, so emphasize review, clarification, and next-step practice.\n"
         "- Do not invent specific lecture content that is not supported by the reflections.\n"
-        "- Keep the guide broadly useful, student-facing, and easy to skim before class.\n\n"
+        "- Keep the guide broadly useful, student-facing, and easy to skim before class.\n"
+        "- Add specific examples or practice problems where applicable.\n"
         "Use the following deterministic metrics and teaching insights to generate a study guide.\n\n"
         f"Metrics:\n{json.dumps(metrics, ensure_ascii=False, indent=2)}\n\n"
         f"Teaching insights:\n{json.dumps(ai_summary or {}, ensure_ascii=False, indent=2)}"
