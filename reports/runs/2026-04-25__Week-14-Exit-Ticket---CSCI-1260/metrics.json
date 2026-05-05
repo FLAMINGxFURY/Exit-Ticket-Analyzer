@@ -1,0 +1,241 @@
+{
+  "metrics": {
+    "week_label": "2026-04-25",
+    "source_file": "Week 14 Exit Ticket - CSCI 1260.csv",
+    "response_counts": {
+      "learned": 14,
+      "struggled": 11,
+      "future": 12,
+      "difficulty_ratings": 14
+    },
+    "difficulty_summary": {
+      "count": 14,
+      "mean": 6.75,
+      "median": 6.0,
+      "min": 5.0,
+      "max": 10.0
+    },
+    "top_learned_terms": [
+      {
+        "term": "testing",
+        "count": 8
+      },
+      {
+        "term": "test",
+        "count": 5
+      },
+      {
+        "term": "debugging",
+        "count": 4
+      },
+      {
+        "term": "use",
+        "count": 3
+      },
+      {
+        "term": "program",
+        "count": 3
+      },
+      {
+        "term": "different",
+        "count": 2
+      }
+    ],
+    "top_struggled_terms": [
+      {
+        "term": "not",
+        "count": 3
+      },
+      {
+        "term": "using",
+        "count": 3
+      },
+      {
+        "term": "code",
+        "count": 3
+      },
+      {
+        "term": "testing",
+        "count": 2
+      },
+      {
+        "term": "don",
+        "count": 2
+      },
+      {
+        "term": "any",
+        "count": 2
+      }
+    ],
+    "top_future_terms": [
+      {
+        "term": "project",
+        "count": 3
+      },
+      {
+        "term": "using",
+        "count": 2
+      },
+      {
+        "term": "programming",
+        "count": 2
+      },
+      {
+        "term": "unity",
+        "count": 2
+      },
+      {
+        "term": "different",
+        "count": 2
+      },
+      {
+        "term": "types",
+        "count": 2
+      }
+    ],
+    "overlap_terms": [
+      "testing"
+    ],
+    "sample_reflections": {
+      "learned": [
+        "I learned how to use MSTest to test your program for different edge cases.",
+        "The date of the final test and other important class dates.",
+        "Debugging",
+        "How much more efficient you can be with a debugging tool and how can you fix your code much easier because of it",
+        "We learned about debugging and how to use it to more efficiently identify where and why errors occus in a program.",
+        "I learned more about windows forms apps",
+        "How to debug and run test on programs",
+        "I learned about the diffrent levels of debiging and how to test the diffrent parts.",
+        "I learned about Unit Testing and what it entails concerning testing chunks of code of a larger program.",
+        "How to use Visual Studio debugging tools",
+        "How to properly go through testing software and how to test properly for bugs and fix them.",
+        "how to debug"
+      ],
+      "struggled": [
+        "The basis of Unit Testing was explained very well; I don't think I have any at this time.",
+        "Not directly about the content but I wanted to mention here that I sent you a couple emails about my project 1 grade. If you get time to read them it would be greatly appreciated!",
+        "Are there any addons that you can download to streamline programming and making it easier",
+        "idk man",
+        "i dont really know of I have questions yet.",
+        "How easy is it to follow SOLID principles when using frameworks other than C# console apps or Blazor?",
+        "Is error handling different than creating a log of the code during runtime?",
+        "How easy or hard would it be to implement some sort of system within a project to show errors that would not show up in the console or whatever development program you would be using. (For example, maybe showing a error when a item ID in a game does not match up with whats shown visually).",
+        "whats the most efficent way to debug",
+        "I guess my main question would be what determines how thorough you have to be when testing a given method or block of code? I don't quite get the MSTest example. Is using the MSTest something you would do to test a method before you add it to a larger code base or something?",
+        "I would like to know more about use cases for exception handling."
+      ],
+      "future": [
+        "Using last week's response: I'd like to learn where you were on Wednesday, if that counts :)",
+        "C++ (I think it would be fun to experiment with frameworks that use the language)",
+        "I'd like to learn more about interfaces within programming and how to manipulate them including detailed html",
+        "What debugging tools are there for python IDEs",
+        "Do you actully look at these or just check if its been completed",
+        "how to be better at unity for my final project.",
+        "I'd like to learn about how viable unit tetsing can be in different project types.",
+        "How to make all types of programs work with VS debug feature",
+        "How to utilize testing to its extremes to make sure that multiple corners of the project are checked for issues or bugs.",
+        "different programming languages",
+        "I would like to learn about how to include API calls in my programs. Mainly because I have seen it pop up so much.",
+        "I have really enojyed using unity but I havent made any of my own textures or animations and I hope to explore that over the summer while I have free time"
+      ]
+    }
+  },
+  "ai_summary": {
+    "top_learned_concepts": [
+      "Testing and unit testing were the clearest perceived takeaways, especially using MSTest to check methods, edge cases, and smaller chunks of larger programs.",
+      "Debugging was a second major learning theme, with students emphasizing practical use of debugger tools to find errors more efficiently.",
+      "Several students specifically connected learning to Visual Studio or Windows/VS tooling rather than only abstract concepts, suggesting the lesson landed as applied workflow knowledge.",
+      "A smaller non-content theme was awareness of course logistics and final-test timing, which appeared among what students reported learning."
+    ],
+    "top_struggle_clusters": [
+      "Applying unit testing in practice: students seem uncertain about what level of thoroughness is expected, when to write MSTest tests, and how unit tests fit into a larger codebase workflow.",
+      "Debugging strategy questions: some students learned the tools but still want guidance on the most efficient way to debug and how to generalize debugging across environments.",
+      "Error handling, logging, and runtime diagnostics: multiple reflections point to confusion about exception handling versus logging, and about surfacing errors that may not appear clearly in a console or IDE.",
+      "Transfer beyond the current stack: students raised questions about using these ideas with other frameworks, other IDEs, game projects, and non-console contexts.",
+      "Low-articulation or no-struggle responses are common this week, so the struggle data likely underrepresents confusion compared with actual uncertainty."
+    ],
+    "future_interest_clusters": [
+      "Cross-platform and cross-language tooling: interest in debugging tools for Python, C++, and different programming languages suggests students want concepts transferred beyond the current C#/Visual Studio context.",
+      "Project-oriented application: students want to use testing and debugging in realistic projects, especially final projects and broader software-development contexts.",
+      "Unity/game-development extensions: several future interests connect course skills to Unity, including improving workflow and extending into assets such as textures and animations.",
+      "Advanced software design/application topics: students expressed interest in interfaces, APIs, and how testing viability changes across different project types.",
+      "More comprehensive testing practice: students want to learn how to push testing further, including broader coverage and checking more edge cases/corners of a project."
+    ],
+    "mismatches": [
+      "Students largely reported learning testing/debugging successfully, but the overlap term and struggle reflections show that testing remains both a takeaway and a source of uncertainty.",
+      "The lesson appears to have succeeded at introducing tools, but some students still lack a decision framework for when to use unit tests, exception handling, logging, or debugger-based inspection.",
+      "Future interests extend well beyond the current course stack, indicating students may understand the local tools but are now asking how portable these practices are to other languages, frameworks, and project types.",
+      "A few reflections focus on course logistics or trust in whether reflections are read, which suggests some students may not see the exit ticket primarily as a space for technical reflection."
+    ],
+    "teaching_adjustments": [
+      "Next class, provide a compact comparison table or mini-demo distinguishing debugging, unit testing, exception handling, and logging: what each is for, when to use it, and what kinds of problems each catches.",
+      "Add one worked example that traces a method through the full workflow: write the method, identify edge cases, add MSTest cases, trigger a failure, debug it, then discuss whether exception handling or logging would also be appropriate.",
+      "Give students a practical heuristic for test scope, such as a checklist for normal cases, edge cases, invalid inputs, and regression cases, to address uncertainty about how thorough tests need to be.",
+      "Explicitly discuss transfer: spend a few minutes framing which ideas are universal (breakpoints, assertions, test cases, logs) versus tool-specific (MSTest, Visual Studio interface).",
+      "Use a short example outside the current default context—such as Unity, Python, or a framework-based app—to validate student interest in applying these concepts beyond console-style assignments.",
+      "Consider a brief reminder that reflections are read for instructional planning, since at least one response questioned that and another used the space for logistics rather than content."
+    ],
+    "followup_exit_ticket_questions": [
+      "After this week, when would you choose unit testing instead of manual debugging, and why?",
+      "What part of the testing workflow still feels most unclear: choosing test cases, writing MSTest syntax, interpreting failures, or deciding coverage?",
+      "Can you explain the difference between debugging, exception handling, and logging in your own words?",
+      "How confident do you feel applying this week's tools in a non-C# or non-Visual-Studio project? What transfer question do you still have?",
+      "What is one realistic project context—course project, Unity game, API-based app, etc.—where you want to apply testing or debugging next?"
+    ],
+    "short_instructor_summary": "This week’s reflections show strong perceived learning around testing/unit testing and debugging, especially with MSTest and Visual Studio tools. The main instructional gap is not whether students saw the tools, but whether they know how to choose among them and apply them in a real workflow: how thorough tests should be, when MSTest fits into development, and how debugging differs from logging or exception handling. Future interests point toward transfer beyond the current stack, especially Unity, other languages, and broader project contexts. A high-value next step would be a comparison-based, end-to-end example that connects unit tests, debugging, and runtime error/reporting practices in one realistic scenario."
+  },
+  "study_guide": {
+    "title": "Week 14 Study Guide: Testing, Debugging, and When to Use Each Tool",
+    "overview": "This week’s main review topics are unit testing, debugging, and related error-checking practices. Many students felt they learned the tools well—especially MSTest and Visual Studio debugging—but also want more clarity on when to use each approach, how thorough tests should be, and how these ideas transfer to larger projects, Unity, or other languages. Use this guide to review the big distinctions, practice thinking through workflow decisions, and prepare questions for class.",
+    "key_takeaways_to_review": [
+      "Unit testing was a major takeaway: students especially noted using MSTest to test methods, smaller chunks of code, and edge cases.",
+      "Debugging was another key theme: many students saw it as a practical way to find where and why errors happen more efficiently.",
+      "Visual Studio tools mattered this week, not just the concepts in the abstract. Be ready to connect ideas to actual workflow.",
+      "Testing and debugging are related but not the same: one common area to review is what each tool is for and when to choose it.",
+      "A useful next step is thinking about a full workflow: write code, identify likely edge cases, test it, inspect failures, and debug when needed.",
+      "Some students are already thinking ahead to applying these ideas in final projects, Unity, other IDEs, and other programming languages."
+    ],
+    "common_sticking_points": [
+      "How thorough should unit tests be for a method or block of code? Students seemed unsure what counts as enough coverage.",
+      "When should you write MSTest tests in your workflow—before adding code to a larger project, while building, or after finding bugs?",
+      "What is the difference between debugging, exception handling, and logging? These were not always clearly separated in student reflections.",
+      "What is the most efficient way to debug, especially when you know tools exist but are unsure how to approach a problem systematically?",
+      "How do these ideas transfer beyond the current class setup, such as Unity projects, Python IDEs, C++, or framework-based applications?"
+    ],
+    "practice_prompts": [
+      "In your own words, explain the difference between unit testing and debugging.",
+      "Describe one situation where a unit test would be more useful than manually stepping through code.",
+      "Describe one situation where debugging would be more useful than writing a new test first.",
+      "Make a short checklist for testing a method: normal case, edge case, invalid input, and past bug/regression.",
+      "Pick one tool or idea from this week that feels tool-specific (for example, MSTest or Visual Studio) and one that feels universal across languages.",
+      "Think about your project work: where could testing help you catch mistakes earlier? Where could debugging save time?"
+    ],
+    "example_problems": [
+      "Suppose you wrote a method that calculates a result from input values. List 4 test cases you would want: one normal case, one edge case, one invalid input case, and one case based on a bug you already found.",
+      "A test fails for one specific input but passes for others. What would you do next with the debugger to locate the issue?",
+      "You see a program behave incorrectly during runtime, but there is no obvious console error. What kinds of information would you want to inspect or record to understand the problem?",
+      "A larger project is working overall, but one helper method seems suspicious. Explain why unit testing that smaller method could be useful before checking the whole program manually."
+    ],
+    "practical_examples": [
+      "If you are building a final project, unit tests can help verify small parts of your logic before those parts are connected to the whole project.",
+      "If you are using Unity or another non-console environment, the exact tools may differ, but the core habits still matter: isolate a problem, define expected behavior, test likely edge cases, and inspect values while the program runs.",
+      "If you are working in another language such as Python or C++, the specific debugger or test framework may change, but breakpoints, assertions, test cases, and logs are still useful ideas.",
+      "If a bug only appears in a specific situation, that situation can become both a debugging target and a future regression test case."
+    ],
+    "self_check_questions": [
+      "Can I clearly explain what unit testing is checking?",
+      "Can I clearly explain what debugging is helping me investigate?",
+      "Do I know at least a basic rule for choosing test cases, especially edge cases?",
+      "Can I describe one difference between exception handling and logging, even if I still want clarification?",
+      "Do I understand which ideas from this week are general software practices versus Visual Studio/MSTest-specific tools?",
+      "Can I name one way I might apply this week’s material in my own project or a future class?"
+    ],
+    "before_next_class": [
+      "Review your notes on MSTest, unit testing, and debugging tools.",
+      "Write down one question you still have about test coverage, debugging strategy, exception handling, or logging.",
+      "Take one method or small piece of code from past work and sketch possible test cases for it.",
+      "Think of one bug you have seen before and ask: would testing, debugging, logging, or exception handling have helped most?",
+      "If you are interested in transfer to Unity, Python, C++, or another environment, bring one concrete example question about how the ideas would carry over."
+    ]
+  }
+}

@@ -41,6 +41,12 @@
       "week_label": "2026-04-19",
       "run_dir": "reports/runs/2026-04-19__Week-13-Exit-Ticket---CSCI-2910",
       "processed_at_utc": "2026-04-21T01:41:47.972907+00:00"
+    },
+    "data/exit_tickets/Week 14 Exit Ticket - CSCI 1260.csv": {
+      "sha256": "69388f2f8da001ddb7394dfa5807a0fe2129b5df0aa6f143a0139c2d58ba4ed4",
+      "week_label": "2026-04-25",
+      "run_dir": "reports/runs/2026-04-25__Week-14-Exit-Ticket---CSCI-1260",
+      "processed_at_utc": "2026-05-05T17:56:01.082484+00:00"
     }
   }
 }
